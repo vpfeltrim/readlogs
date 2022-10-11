@@ -1,0 +1,1532 @@
+[10.10.2022 12:34:58.724] <  9712> cli      | LOG: Parsing log parameters ...
+[10.10.2022 12:34:58.724] <  9712> cli      | LOG: Initializing log file ...
+[10.10.2022 12:34:58.724] <  9712> cli      | LOG: C:\ProgramData\Veeam\Backup\job_teste\192.168.5.40\Agent.192.168.5.40.Source.log
+[10.10.2022 12:34:58.724] <  9712>          | ====================================================================================
+[10.10.2022 12:34:58.724] <  9712>          | {
+[10.10.2022 12:34:58.724] <  9712>          |   Veeam Agent
+[10.10.2022 12:34:58.724] <  9712>          |   Path to the executable module: C:\Program Files (x86)\Veeam\Backup Transport\x64\VeeamAgent.exe
+[10.10.2022 12:34:58.724] <  9712>          |   Executable architecture: 64-bit
+[10.10.2022 12:34:58.724] <  9712>          |   Executable version: 11.0.1.1261
+[10.10.2022 12:34:58.724] <  9712>          |   Build edition: standard
+[10.10.2022 12:34:58.724] <  9712>          |   Comments: Private Fix KB20220302,CF-11.0a-CP4-20220302
+[10.10.2022 12:34:58.724] <  9712>          |   OS version: Microsoft Windows Server 2016 (1607, 64-bit) (10.0.14393)
+[10.10.2022 12:34:58.724] <  9712>          |   Processors num: 3
+[10.10.2022 12:34:58.724] <  9712>          |   Active processors mask: 7
+[10.10.2022 12:34:58.724] <  9712>          |   Processor 0: Common KVM processor
+[10.10.2022 12:34:58.724] <  9712>          |   Processor 1: Common KVM processor
+[10.10.2022 12:34:58.724] <  9712>          |   Processor 2: Common KVM processor
+[10.10.2022 12:34:58.724] <  9712>          |   Installed memory, MB: 16371
+[10.10.2022 12:34:58.724] <  9712>          |   PID: 3400
+[10.10.2022 12:34:58.724] <  9712>          | }
+[10.10.2022 12:34:58.724] <  9712>          | Loading options.
+[10.10.2022 12:34:58.724] <  9712>          | Adjusting system file cache limit (25 percent)
+[10.10.2022 12:34:58.724] <  9712>          |   Total physical memory installed: [16371 MB], available: [10372 MB].
+[10.10.2022 12:34:58.724] <  9712>          |   Maximum file cache size is already [4092 MB].
+[10.10.2022 12:34:58.724] <  9712>          | VDDK logging level: 1
+[10.10.2022 12:34:58.724] <  9712>          | Maximum pending blocks value: 10000
+[10.10.2022 12:34:58.724] <  9712>          | AgentId:{5a380d0f-b9d8-48ff-b85e-e538fdc57492}
+[10.10.2022 12:34:58.724] < 11060>          | Thread started. Thread id: 11060, parent id: 9712, role: Clean up procedure
+[10.10.2022 12:34:58.724] < 11060> vim      | Entering to the VI connections pool cleanup thread.
+[10.10.2022 12:34:58.724] <  9712>          | Add HostFS to the factories map.
+[10.10.2022 12:34:58.724] <  9712>          | Add cloud to the factories map.
+[10.10.2022 12:34:58.724] <  9712>          | Add nfc to the factories map.
+[10.10.2022 12:34:58.724] <  9712>          | Add TapeFs to the factories map.
+[10.10.2022 12:34:58.724] <  9712>          | Add ddboost to the factories map.
+[10.10.2022 12:34:58.724] <  9712>          | Add storeonce to the factories map.
+[10.10.2022 12:34:58.724] <  9712>          | Add fakestoreonce to the factories map.
+[10.10.2022 12:34:58.724] <  9712>          | Add nfs41 to the factories map.
+[10.10.2022 12:34:58.724] <  9712>          | Add nfs3 to the factories map.
+[10.10.2022 12:34:58.724] <  9712>          | Add nfs to the factories map.
+[10.10.2022 12:34:58.724] <  9712> objagent | ObjAgentLib registry options are loaded
+[10.10.2022 12:34:58.724] <  9712> fs       | Created opened files limit context. Type: [Data], Limit: [10000]
+[10.10.2022 12:34:58.724] <  9712> fs       | Created opened files limit context. Type: [Meta], Limit: [10000]
+[10.10.2022 12:34:58.724] <  9712>          | Management connection keyset: 'ID: bca160378e14ca342ac0470f9ee53bd9 (session), keys: 1, repair records: 0 (master keys:)'.
+[10.10.2022 12:34:58.724] <  2484>          | Thread started. Thread id: 2484, parent id: 9712, role: Session container
+[10.10.2022 12:34:58.724] <  2484> srv      | Srv. cleanup thread is started.
+[10.10.2022 12:34:58.724] <  9712> cli      | Client session has been started.
+[10.10.2022 12:34:58.724] <  9712> net      |   vRPC server socket management: Allow local address reuse [false]; Retry bind socket [false]; Wait client shutdown on socket close [false]
+[10.10.2022 12:34:58.724] < 10680> cli      | Thread started. Thread id: 10680, parent id: 9712, role: VRPC server thread
+[10.10.2022 12:34:58.724] < 10680> net      | Veeam RPC server started.
+[10.10.2022 12:34:58.724] < 10680> cli      | SIO_LOOPBACK_FAST_PATH is disabled in configuration
+[10.10.2022 12:34:58.724] < 10680> net      | Selected vRPC port: '2501'.
+[10.10.2022 12:34:58.724] < 10680> net      | Listening vRPC port '2501'.
+[10.10.2022 12:34:58.724] <  9712> cli      |   Opening event: [VeeamEvent{684d1f64-7fc4-40a0-8a97-1ff9967def42}]
+[10.10.2022 12:34:58.724] <  9712> cli      |   Opening shared memory: [VeeamMem{684d1f64-7fc4-40a0-8a97-1ff9967def42}]
+[10.10.2022 12:34:58.724] < 10680> net      |   Accepted incoming vRPC connection from '127.0.0.1:55043'.
+[10.10.2022 12:34:58.724] <  3688> cli      | Thread started. Thread id: 3688, parent id: 10680, role: Client processor thread (127.0.0.1:55043)
+[10.10.2022 12:34:58.724] <  3688> net      | Client connected...
+[10.10.2022 12:34:58.724] <  3688> cli      | Creating session ( redirect output session: 'false')
+[10.10.2022 12:34:58.724] <  3688> cli      | CAgentFlowDispatcher: connection will be encrypted. Management keyset: 'ID: bca160378e14ca342ac0470f9ee53bd9 (session), keys: 1, repair records: 0 (master keys:)'.
+[10.10.2022 12:34:58.724] <  3688> cli      | Client works in standalone mode.
+[10.10.2022 12:34:58.724] < 10680> net      |   Accepted incoming vRPC connection from '192.168.5.61:55044'.
+[10.10.2022 12:34:58.724] < 10756> cli      | Thread started. Thread id: 10756, parent id: 10680, role: Client processor thread (192.168.5.61:55044)
+[10.10.2022 12:34:58.724] < 10756> net      | Client connected...
+[10.10.2022 12:34:58.724] < 10756> cli      | Creating session ( redirect output session: 'true')
+[10.10.2022 12:34:58.724] < 10756> cli      | CAgentFlowDispatcher: connection will be encrypted. Management keyset: 'ID: bca160378e14ca342ac0470f9ee53bd9 (session), keys: 1, repair records: 0 (master keys:)'.
+[10.10.2022 12:34:58.724] < 10756> cli      | Registering stdin/stdout redirector: '2169911930400'.
+[10.10.2022 12:34:58.724] < 10756> cli      | Client works in standalone mode.
+[10.10.2022 12:34:58.724] < 10680> net      |   Accepted incoming vRPC connection from '192.168.5.61:55045'.
+[10.10.2022 12:34:58.724] <  6592> cli      | Thread started. Thread id: 6592, parent id: 10680, role: Client processor thread (192.168.5.61:55045)
+[10.10.2022 12:34:58.724] <  6592> net      | Client connected...
+[10.10.2022 12:34:58.724] <  6592> cli      | Creating session ( redirect output session: 'false')
+[10.10.2022 12:34:58.724] <  6592> cli      | CAgentFlowDispatcher: connection will be encrypted. Management keyset: 'ID: bca160378e14ca342ac0470f9ee53bd9 (session), keys: 1, repair records: 0 (master keys:)'.
+[10.10.2022 12:34:58.724] <  6592> cli      | Client works in standalone mode.
+[10.10.2022 12:34:58.724] <  6592> cli      | -------------------------------------------------------------------------------
+[10.10.2022 12:34:58.724] <  6592> cli      | Generic.SetNetworkReconnectOptions
+[10.10.2022 12:34:58.724] <  6592> cli      |   (EUInt64) AttemptIntervalMs = 15000
+[10.10.2022 12:34:58.724] <  6592> cli      |   (EBoolean) Enabled = true
+[10.10.2022 12:34:58.724] <  6592> cli      |   (EUInt64) OverallTimeoutMs = 1800000
+[10.10.2022 12:34:58.724] <  6592> cli      | - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[10.10.2022 12:34:58.724] <  6592> cli      | New client-server reconnection options were set and will be applied to future connections.
+[10.10.2022 12:34:58.724] <  6592> cli      | Reconnects: enabled.
+[10.10.2022 12:34:58.724] <  6592> cli      | Overall reconnect timeout [ms]: 1800000.
+[10.10.2022 12:34:58.724] <  6592> cli      | Single attempt interval [ms]: 15000.
+[10.10.2022 12:34:58.724] <  6592> cli      | Method [Generic.SetNetworkReconnectOptions] completed. Elapsed time: [00:00:00.000]
+[10.10.2022 12:34:58.724] <  6592> cli      | -------------------------------------------------------------------------------
+[10.10.2022 12:34:58.740] <  6592> cli      | -------------------------------------------------------------------------------
+[10.10.2022 12:34:58.740] <  6592> cli      | Generic.EnableAgentReconnectPolicy
+[10.10.2022 12:34:58.740] <  6592> cli      |   (EBoolean) IsRemoteAgent = false
+[10.10.2022 12:34:58.740] <  6592> cli      | - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[10.10.2022 12:34:58.740] <  6592> cli      | Enabling agent reconnection policy. Mode: [local].
+[10.10.2022 12:34:58.740] <  6592> cli      | This client session is a control session. Client-server reconnection will be disabled permanently if this session fails.
+[10.10.2022 12:34:58.740] <  6592> cli      | Method [Generic.EnableAgentReconnectPolicy] completed. Elapsed time: [00:00:00.000]
+[10.10.2022 12:34:58.740] <  6592> cli      | -------------------------------------------------------------------------------
+[10.10.2022 12:34:58.740] < 10756> cli      | Next client command: [connectLocal].
+[10.10.2022 12:34:58.740] < 10756> cli      |       :>  192.168.5.61:2500
+[10.10.2022 12:34:58.740] < 10756> cli      |       :>  srv-qa-veeam01.lab.local:2500
+[10.10.2022 12:34:58.740] < 10756> cli      |       :>  .
+[10.10.2022 12:34:58.740] < 10756> cli      |       :>  0
+[10.10.2022 12:34:58.740] < 10756> cli      |       :>  {7a6be6e0-a0d3-4309-bc10-e390818375b6}
+[10.10.2022 12:34:58.740] < 10756> cli      |       :>  {b9784534-1c88-46ee-8b7d-1b7cbe5808e3}
+[10.10.2022 12:34:58.740] < 10756> cli      |       :>  2
+[10.10.2022 12:34:58.740] < 10756> cli      |       :>  00000000-0000-0000-0000-000000000000
+[10.10.2022 12:34:58.740] < 10756> cli      | Connecting to the server agent with the following parameters: [192.168.5.61:2500; srv-qa-veeam01.lab.local:2500].
+[10.10.2022 12:34:58.740] < 10756> cli      |   [Hook] Creating redirection hooks rules instance.
+[10.10.2022 12:34:58.740] < 10756> cli      |   All client-server connections will be established using following reconnect options:
+[10.10.2022 12:34:58.740] < 10756> cli      |     Reconnects: enabled.
+[10.10.2022 12:34:58.740] < 10756> cli      |     Overall reconnect timeout [ms]: 1800000.
+[10.10.2022 12:34:58.740] < 10756> cli      |     Single attempt interval [ms]: 15000.
+[10.10.2022 12:34:58.740] < 10756> cli      |   Trying to connect to the endpoint [192.168.5.61:2500]
+[10.10.2022 12:34:58.740] < 10756> cli      |   Connection status: system:0 ( The operation completed successfully ).
+[10.10.2022 12:34:58.740] < 10756> cli      |   Attempting to establish shared memory connection.
+[10.10.2022 12:34:58.740] < 10756> cli      |     Opening shared memory device with name: [SharedMemDev_{c18c16ab-59c7-4eb8-937a-830cdaa28593}].
+[10.10.2022 12:34:58.740] < 10756> cli      |       Opening process handle for PID: [5628].
+[10.10.2022 12:34:58.740] < 10756> cli      |       Opening ring buffer: [SharedMemDev_{c18c16ab-59c7-4eb8-937a-830cdaa28593}_ForwardBuf_SharedMem].
+[10.10.2022 12:34:58.740] < 10756> cli      |       Opening ring buffer: [SharedMemDev_{c18c16ab-59c7-4eb8-937a-830cdaa28593}_BackwardBuf_SharedMem].
+[10.10.2022 12:34:58.740] < 10756> cli      |     Opening shared memory device with name: [SharedMemDev_{c18c16ab-59c7-4eb8-937a-830cdaa28593}]. ok.
+[10.10.2022 12:34:58.740] < 10756> cli      |   Shared memory connection has been successfully established. Buffer size: [524288]
+[10.10.2022 12:34:58.740] < 10756> cli      |   Login ticket: {7a6be6e0-a0d3-4309-bc10-e390818375b6}
+[10.10.2022 12:34:58.740] < 10756> cli      |   Server features: [1], client features: [1], shared features: [1]
+[10.10.2022 12:34:58.740] < 10756> cli      |   Negotiating transport pool id.
+[10.10.2022 12:34:58.740] < 10756> cli      |   Additional transport connections will be assigned to pool '1'.
+[10.10.2022 12:34:58.740] < 10756> net      |   Initiating AUX data channel. Client id: '{7ceee65f-ddbc-4c45-aa38-44ab2c52c1ec}'.
+[10.10.2022 12:34:58.740] < 10756> cli      |   Trying to connect to the endpoint [192.168.5.61:2500]
+[10.10.2022 12:34:58.740] < 10756> cli      |   Connection status: system:0 ( The operation completed successfully ).
+[10.10.2022 12:34:58.740] < 10756> net      |   Sending reconnect options: [enabled: timeout 1800000, interval 15000].
+[10.10.2022 12:34:58.740] < 10756> cli      |   Trying to connect to the endpoint [192.168.5.61:2500]
+[10.10.2022 12:34:58.740] < 11172> cli      | Thread started. Thread id: 11172, parent id: 10756, role: (async) reconn. receiver {fbe0eef5-dec2-45e8-b4b2-0a344bd4e4ed}
+[10.10.2022 12:34:58.740] < 11172> alg      | Receiver stage: running recv cycle.
+[10.10.2022 12:34:58.740] <  6888> cli      | Thread started. Thread id: 6888, parent id: 10756, role: (async) AUX channel receiver
+[10.10.2022 12:34:58.740] < 10756> cli      |   Connection status: system:0 ( The operation completed successfully ).
+[10.10.2022 12:34:58.740] <  1740> cli      | Thread started. Thread id: 1740, parent id: 10756, role: (async) reconn. sender {fbe0eef5-dec2-45e8-b4b2-0a344bd4e4ed}
+[10.10.2022 12:34:58.740] <  1740> alg      | Sender stage: running send cycle. Resend list: [0].
+[10.10.2022 12:34:58.740] < 10756> net      |   Sending reconnect options: [enabled: timeout 1800000, interval 15000].
+[10.10.2022 12:34:58.740] <  6696> cli      | Thread started. Thread id: 6696, parent id: 10756, role: (async) reconn. receiver {22b7e364-4558-4607-9618-46e0431aabb7}
+[10.10.2022 12:34:58.740] <  6696> alg      | Receiver stage: running recv cycle.
+[10.10.2022 12:34:58.740] < 10756> cli      |   All connections were established, sending acknowledge.
+[10.10.2022 12:34:58.740] < 10756> cli      | Connection established ( server IP: '192.168.5.61:2500').
+[10.10.2022 12:34:58.740] < 10756> cli      | 
+[10.10.2022 12:34:58.740] < 10756> cli      | _______________________________________________________________________________
+[10.10.2022 12:34:58.740] < 10756> cli      | Waiting for the next command.
+[10.10.2022 12:34:58.740] < 10560> cli      | Thread started. Thread id: 10560, parent id: 10756, role: (async) reconn. sender {22b7e364-4558-4607-9618-46e0431aabb7}
+[10.10.2022 12:34:58.740] < 10560> alg      | Sender stage: running send cycle. Resend list: [0].
+[10.10.2022 12:34:58.756] <  6888> cli      | Remote time: 10.10.2022 12:34:58
+[10.10.2022 12:34:58.756] <  9836> cli      | Thread started. Thread id: 9836, parent id: 10756, role: (async) AUX channel sender
+[10.10.2022 12:34:58.834] < 10756> cli      | -------------------------------------------------------------------------------
+[10.10.2022 12:34:58.834] < 10756> cli      | DataTransfer.BackupText
+[10.10.2022 12:34:58.834] < 10756> cli      |   (EString) BackupType = {synth}
+[10.10.2022 12:34:58.834] < 10756> cli      |   (EBoolean) FullCopy = false
+[10.10.2022 12:34:58.834] < 10756> cli      |   (EBoolean) Option.Remote = true
+[10.10.2022 12:34:58.834] < 10756> cli      |   (EBlob) Text = {EBlob: 5311 bytes}
+[10.10.2022 12:34:58.834] < 10756> cli      |   (EString) VbkLink = veeamfs:0:6745a759-2205-4cd2-b172-8ec8f7e60ef8 (f0b12f0a-1178-834d-8432-08b4a90fe6df_dda8303a-acde-4631-b91b-05f7da4153aa)/summary.xml@C:\Backup\job teste\192.168.5.40\job teste - 192.168.5.40D2022-10-10T123444_FB80.vbk
+[10.10.2022 12:34:58.834] < 10756> cli      | - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[10.10.2022 12:34:58.834] < 10756> cli      | Redirecting command [DataTransfer.BackupText] to server.
+[10.10.2022 12:34:58.849] < 10756> cli      | Method [DataTransfer.BackupText] completed. Elapsed time: [00:00:00.020]
+[10.10.2022 12:34:58.849] < 10756> cli      | -------------------------------------------------------------------------------
+[10.10.2022 12:35:03.599] < 10756> cli      | Next client command: [disconnect].
+[10.10.2022 12:35:03.599] < 10756> net      | AUX channel shutdown triggered.
+[10.10.2022 12:35:03.599] <  9836> net      | AUX data sender: sending shutdown marker.
+[10.10.2022 12:35:03.599] < 10560> alg      | Reconnectable stop request was sent on {22b7e364-4558-4607-9618-46e0431aabb7}.
+[10.10.2022 12:35:03.599] < 11172> alg      | Reconnectable protocol stop request was received on {fbe0eef5-dec2-45e8-b4b2-0a344bd4e4ed}.
+[10.10.2022 12:35:03.599] <  6696> alg      | Reconnectable protocol stop request confirmation was received on {22b7e364-4558-4607-9618-46e0431aabb7}.
+[10.10.2022 12:35:03.599] <  6696> alg      | Reconnectable protocol stop request was received on {22b7e364-4558-4607-9618-46e0431aabb7}.
+[10.10.2022 12:35:03.599] <  6696> alg      | Receiver: finishing on {22b7e364-4558-4607-9618-46e0431aabb7}.
+[10.10.2022 12:35:03.599] <  6696> cli      | Thread finished. Role: '(async) reconn. receiver {22b7e364-4558-4607-9618-46e0431aabb7}'.
+[10.10.2022 12:35:03.599] <  6888> net      | AUX data receiver: shutdown marker received. Waiting for shutdown.
+[10.10.2022 12:35:03.599] <  1740> alg      | Reconnectable stop confirmation was sent on {fbe0eef5-dec2-45e8-b4b2-0a344bd4e4ed}.
+[10.10.2022 12:35:03.599] <  1740> alg      | Reconnectable stop request was sent on {fbe0eef5-dec2-45e8-b4b2-0a344bd4e4ed}.
+[10.10.2022 12:35:03.599] < 10560> alg      | Reconnectable stop confirmation was sent on {22b7e364-4558-4607-9618-46e0431aabb7}.
+[10.10.2022 12:35:03.599] < 10560> alg      | Sender stage is finishing.
+[10.10.2022 12:35:03.599] < 10560> cli      | Thread finished. Role: '(async) reconn. sender {22b7e364-4558-4607-9618-46e0431aabb7}'.
+[10.10.2022 12:35:03.599] <  9836> alg      | Traffic history max size: [4].
+[10.10.2022 12:35:03.599] <  9836> cli      | Thread finished. Role: '(async) AUX channel sender'.
+[10.10.2022 12:35:03.599] < 11172> alg      | Reconnectable protocol stop request confirmation was received on {fbe0eef5-dec2-45e8-b4b2-0a344bd4e4ed}.
+[10.10.2022 12:35:03.599] < 11172> alg      | Receiver: finishing on {fbe0eef5-dec2-45e8-b4b2-0a344bd4e4ed}.
+[10.10.2022 12:35:03.599] < 11172> cli      | Thread finished. Role: '(async) reconn. receiver {fbe0eef5-dec2-45e8-b4b2-0a344bd4e4ed}'.
+[10.10.2022 12:35:03.599] <  1740> alg      | Sender stage is finishing.
+[10.10.2022 12:35:03.599] <  1740> cli      | Thread finished. Role: '(async) reconn. sender {fbe0eef5-dec2-45e8-b4b2-0a344bd4e4ed}'.
+[10.10.2022 12:35:03.599] <  6888> alg      | Traffic history max size: [4].
+[10.10.2022 12:35:03.599] <  6888> cli      | Thread finished. Role: '(async) AUX channel receiver'.
+[10.10.2022 12:35:03.599] < 10756> cli      | 
+[10.10.2022 12:35:03.599] < 10756> cli      | _______________________________________________________________________________
+[10.10.2022 12:35:03.599] < 10756> cli      | Waiting for the next command.
+[10.10.2022 12:35:03.615] <  4708> cli      | Finalization thread: Received external stop event.
+[10.10.2022 12:35:03.615] <  4708> cli      | Thread finished. Role: 'Event listener thread'.
+[10.10.2022 12:35:03.615] < 10680> net      | Terminating by stop event in CTcpThread::WaitOrStop.
+[10.10.2022 12:35:03.615] < 10680> net      | Stopping client sessions.
+[10.10.2022 12:35:03.615] <  3688> net      | Terminating by stop event in CTcpThread::WaitOrStop.
+[10.10.2022 12:35:03.615] <  3688> cli      | WARN|Input TCP stream was closed
+[10.10.2022 12:35:03.615] <  3688> net      | Connection closed...
+[10.10.2022 12:35:03.615] <  3688> cli      | Thread finished. Role: 'Client processor thread (127.0.0.1:55043)'.
+[10.10.2022 12:35:03.615] < 10756> net      | Terminating by stop event in CTcpThread::WaitOrStop.
+[10.10.2022 12:35:03.615] < 10756> cli      | WARN|Input TCP stream was closed
+[10.10.2022 12:35:03.615] < 10756> cli      | Removing stdin/stdout redirector: '2169911930400'.
+[10.10.2022 12:35:03.615] < 10756> net      | Connection closed...
+[10.10.2022 12:35:03.615] < 10756> cli      | Thread finished. Role: 'Client processor thread (192.168.5.61:55044)'.
+[10.10.2022 12:35:03.615] <  6592> net      | Terminating by stop event in CTcpThread::WaitOrStop.
+[10.10.2022 12:35:03.615] <  6592> cli      | WARN|Control session with manager was stopped. Raising reconnect stop event.
+[10.10.2022 12:35:03.615] <  6592> cli      | WARN|Input TCP stream was closed
+[10.10.2022 12:35:03.615] <  6592> net      | Connection closed...
+[10.10.2022 12:35:03.615] <  6592> cli      | Thread finished. Role: 'Client processor thread (192.168.5.61:55045)'.
+[10.10.2022 12:35:03.615] < 10680> net      | Veeam RPC server stopped.
+[10.10.2022 12:35:03.615] < 10680> cli      | Thread finished. Role: 'VRPC server thread'.
+[10.10.2022 12:35:03.615] <  9712> cli      |   Cleaning all resumable operations.
+[10.10.2022 12:35:03.615] <  9712> srv      |   Stopping srv. cleanup thread.
+[10.10.2022 12:35:03.615] <  2484> srv      |   Finalizing srv. sessions.
+[10.10.2022 12:35:03.615] <  2484> srv      | Srv. cleanup thread is finished.
+[10.10.2022 12:35:03.615] <  2484> cli      | Thread finished. Role: 'Session container'.
+[10.10.2022 12:35:03.615] <  9712> srv      |   Srv. cleanup thread was stopped.
+[10.10.2022 12:35:03.615] <  9712> dsk      |   Removing attached vmdk disks.
+[10.10.2022 12:35:03.615] <  9712> dsk      |   Disconnecting all VMs
+[10.10.2022 12:35:03.615] <  9712> dsk      |     Disconnecting all VMs...
+[10.10.2022 12:35:03.615] <  9712> dsk      |       Removing all vm connections
+[10.10.2022 12:35:03.615] <  9712> dsk      |     All VMs were successfully disconnected.
+[10.10.2022 12:35:03.615] <  9712> cli      | Client has been stopped.
+[10.10.2022 12:35:03.615] <  9712> cli      | Destroying connection pools.
+[10.10.2022 12:35:03.615] <  9712> cli      | Destroying connection pools. ok.
+[10.10.2022 12:35:03.615] <  9712> cli      | Resetting Veeam agent context
+[10.10.2022 12:35:03.615] <  9712> cli      |   Reset NAS backup context
+[10.10.2022 12:35:03.615] <  9712> cli      |     Disposing message channel context
+[10.10.2022 12:35:03.615] <  9712> cli      |   Reset NAS backup context ok.
+[10.10.2022 12:35:03.615] <  9712> cli      |   Reset storages context
+[10.10.2022 12:35:03.615] <  9712> stg      |     Storages cache is empty : skipping cleanup.
+[10.10.2022 12:35:03.615] <  9712> cli      |   Reset storages context ok.
+[10.10.2022 12:35:03.615] <  9712> cli      |   Reset singleton manager holder
+[10.10.2022 12:35:03.615] < 11060> vim      | Cleanup thread for the VI connections pool has finished.
+[10.10.2022 12:35:03.615] < 11060> cli      | Thread finished. Role: 'Clean up procedure'.
+[10.10.2022 12:35:03.615] <  9712> cli      |   Reset singleton manager holder ok.
+[10.10.2022 12:35:03.615] <  9712> cli      | Resetting Veeam agent context ok.
+[10.10.2022 12:35:03.615] <  9712> cli      | Resetting Veeam agent context
+[10.10.2022 12:35:03.615] <  9712> cli      |   Reset NAS backup context
+[10.10.2022 12:35:03.615] <  9712> cli      |   Reset NAS backup context ok.
+[10.10.2022 12:35:03.615] <  9712> cli      |   Reset storages context
+[10.10.2022 12:35:03.615] <  9712> cli      |   Reset storages context ok.
+[10.10.2022 12:35:03.615] <  9712> cli      |   Reset singleton manager holder
+[10.10.2022 12:35:03.615] <  9712> cli      |   Reset singleton manager holder ok.
+[10.10.2022 12:35:03.615] <  9712> cli      | Resetting Veeam agent context ok.
+[10.10.2022 12:35:03.615] <  9712> cli      | The agent session has finished successfully.
+[10.10.2022 12:41:49.053] < 10328> cli      | LOG: Parsing log parameters ...
+[10.10.2022 12:41:49.053] < 10328> cli      | LOG: Initializing log file ...
+[10.10.2022 12:41:49.053] < 10328> cli      | LOG: C:\ProgramData\Veeam\Backup\job_teste\192.168.5.40\Agent.192.168.5.40.Source.log
+[10.10.2022 12:41:49.053] < 10328>          | ====================================================================================
+[10.10.2022 12:41:49.053] < 10328>          | {
+[10.10.2022 12:41:49.053] < 10328>          |   Veeam Agent
+[10.10.2022 12:41:49.053] < 10328>          |   Path to the executable module: C:\Program Files (x86)\Veeam\Backup Transport\x64\VeeamAgent.exe
+[10.10.2022 12:41:49.053] < 10328>          |   Executable architecture: 64-bit
+[10.10.2022 12:41:49.053] < 10328>          |   Executable version: 11.0.1.1261
+[10.10.2022 12:41:49.053] < 10328>          |   Build edition: standard
+[10.10.2022 12:41:49.053] < 10328>          |   Comments: Private Fix KB20220302,CF-11.0a-CP4-20220302
+[10.10.2022 12:41:49.053] < 10328>          |   OS version: Microsoft Windows Server 2016 (1607, 64-bit) (10.0.14393)
+[10.10.2022 12:41:49.053] < 10328>          |   Processors num: 3
+[10.10.2022 12:41:49.053] < 10328>          |   Active processors mask: 7
+[10.10.2022 12:41:49.053] < 10328>          |   Processor 0: Common KVM processor
+[10.10.2022 12:41:49.053] < 10328>          |   Processor 1: Common KVM processor
+[10.10.2022 12:41:49.053] < 10328>          |   Processor 2: Common KVM processor
+[10.10.2022 12:41:49.053] < 10328>          |   Installed memory, MB: 16371
+[10.10.2022 12:41:49.053] < 10328>          |   PID: 7860
+[10.10.2022 12:41:49.053] < 10328>          | }
+[10.10.2022 12:41:49.053] < 10328>          | Loading options.
+[10.10.2022 12:41:49.053] < 10328>          | Adjusting system file cache limit (25 percent)
+[10.10.2022 12:41:49.053] < 10328>          |   Total physical memory installed: [16371 MB], available: [10339 MB].
+[10.10.2022 12:41:49.053] < 10328>          |   Maximum file cache size is already [4092 MB].
+[10.10.2022 12:41:49.053] < 10328>          | VDDK logging level: 1
+[10.10.2022 12:41:49.053] < 10328>          | Maximum pending blocks value: 10000
+[10.10.2022 12:41:49.053] < 10328>          | AgentId:{02190ad6-4d90-4962-90b5-7a9e41cf695a}
+[10.10.2022 12:41:49.053] < 10328>          | Add HostFS to the factories map.
+[10.10.2022 12:41:49.053] < 10960>          | Thread started. Thread id: 10960, parent id: 10328, role: Clean up procedure
+[10.10.2022 12:41:49.053] < 10960> vim      | Entering to the VI connections pool cleanup thread.
+[10.10.2022 12:41:49.053] < 10328>          | Add cloud to the factories map.
+[10.10.2022 12:41:49.053] < 10328>          | Add nfc to the factories map.
+[10.10.2022 12:41:49.053] < 10328>          | Add TapeFs to the factories map.
+[10.10.2022 12:41:49.053] < 10328>          | Add ddboost to the factories map.
+[10.10.2022 12:41:49.053] < 10328>          | Add storeonce to the factories map.
+[10.10.2022 12:41:49.053] < 10328>          | Add fakestoreonce to the factories map.
+[10.10.2022 12:41:49.053] < 10328>          | Add nfs41 to the factories map.
+[10.10.2022 12:41:49.053] < 10328>          | Add nfs3 to the factories map.
+[10.10.2022 12:41:49.053] < 10328>          | Add nfs to the factories map.
+[10.10.2022 12:41:49.053] < 10328> objagent | ObjAgentLib registry options are loaded
+[10.10.2022 12:41:49.053] < 10328> fs       | Created opened files limit context. Type: [Data], Limit: [10000]
+[10.10.2022 12:41:49.053] < 10328> fs       | Created opened files limit context. Type: [Meta], Limit: [10000]
+[10.10.2022 12:41:49.053] < 10328>          | Management connection keyset: 'ID: 9306a64e43615231273c4a65802dae94 (session), keys: 1, repair records: 0 (master keys:)'.
+[10.10.2022 12:41:49.053] <  6296>          | Thread started. Thread id: 6296, parent id: 10328, role: Session container
+[10.10.2022 12:41:49.053] <  6296> srv      | Srv. cleanup thread is started.
+[10.10.2022 12:41:49.053] < 10328> cli      | Client session has been started.
+[10.10.2022 12:41:49.053] < 10328> net      |   vRPC server socket management: Allow local address reuse [false]; Retry bind socket [false]; Wait client shutdown on socket close [false]
+[10.10.2022 12:41:49.053] < 10956> cli      | Thread started. Thread id: 10956, parent id: 10328, role: VRPC server thread
+[10.10.2022 12:41:49.053] < 10956> net      | Veeam RPC server started.
+[10.10.2022 12:41:49.053] < 10956> cli      | SIO_LOOPBACK_FAST_PATH is disabled in configuration
+[10.10.2022 12:41:49.053] < 10956> net      | Selected vRPC port: '2501'.
+[10.10.2022 12:41:49.053] < 10956> net      | Listening vRPC port '2501'.
+[10.10.2022 12:41:49.053] < 10328> cli      |   Opening event: [VeeamEvent{596a7225-80d4-4447-8a4c-8b174c57c66e}]
+[10.10.2022 12:41:49.053] < 10328> cli      |   Opening shared memory: [VeeamMem{596a7225-80d4-4447-8a4c-8b174c57c66e}]
+[10.10.2022 12:41:49.053] < 10956> net      |   Accepted incoming vRPC connection from '127.0.0.1:55309'.
+[10.10.2022 12:41:49.053] <  5252> cli      | Thread started. Thread id: 5252, parent id: 10956, role: Client processor thread (127.0.0.1:55309)
+[10.10.2022 12:41:49.053] <  5252> net      | Client connected...
+[10.10.2022 12:41:49.053] <  5252> cli      | Creating session ( redirect output session: 'false')
+[10.10.2022 12:41:49.053] <  5252> cli      | CAgentFlowDispatcher: connection will be encrypted. Management keyset: 'ID: 9306a64e43615231273c4a65802dae94 (session), keys: 1, repair records: 0 (master keys:)'.
+[10.10.2022 12:41:49.053] <  5252> cli      | Client works in standalone mode.
+[10.10.2022 12:41:49.053] < 10956> net      |   Accepted incoming vRPC connection from '192.168.5.61:55310'.
+[10.10.2022 12:41:49.053] < 10996> cli      | Thread started. Thread id: 10996, parent id: 10956, role: Client processor thread (192.168.5.61:55310)
+[10.10.2022 12:41:49.053] < 10996> net      | Client connected...
+[10.10.2022 12:41:49.053] < 10996> cli      | Creating session ( redirect output session: 'true')
+[10.10.2022 12:41:49.053] < 10996> cli      | CAgentFlowDispatcher: connection will be encrypted. Management keyset: 'ID: 9306a64e43615231273c4a65802dae94 (session), keys: 1, repair records: 0 (master keys:)'.
+[10.10.2022 12:41:49.053] < 10996> cli      | Registering stdin/stdout redirector: '1617253984544'.
+[10.10.2022 12:41:49.053] < 10996> cli      | Client works in standalone mode.
+[10.10.2022 12:41:49.068] < 10956> net      |   Accepted incoming vRPC connection from '192.168.5.61:55311'.
+[10.10.2022 12:41:49.068] <  8260> cli      | Thread started. Thread id: 8260, parent id: 10956, role: Client processor thread (192.168.5.61:55311)
+[10.10.2022 12:41:49.068] <  8260> net      | Client connected...
+[10.10.2022 12:41:49.068] <  8260> cli      | Creating session ( redirect output session: 'false')
+[10.10.2022 12:41:49.068] <  8260> cli      | CAgentFlowDispatcher: connection will be encrypted. Management keyset: 'ID: 9306a64e43615231273c4a65802dae94 (session), keys: 1, repair records: 0 (master keys:)'.
+[10.10.2022 12:41:49.068] <  8260> cli      | Client works in standalone mode.
+[10.10.2022 12:41:49.068] <  8260> cli      | -------------------------------------------------------------------------------
+[10.10.2022 12:41:49.068] <  8260> cli      | Generic.SetNetworkReconnectOptions
+[10.10.2022 12:41:49.068] <  8260> cli      |   (EUInt64) AttemptIntervalMs = 15000
+[10.10.2022 12:41:49.068] <  8260> cli      |   (EBoolean) Enabled = true
+[10.10.2022 12:41:49.068] <  8260> cli      |   (EUInt64) OverallTimeoutMs = 1800000
+[10.10.2022 12:41:49.068] <  8260> cli      | - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[10.10.2022 12:41:49.068] <  8260> cli      | New client-server reconnection options were set and will be applied to future connections.
+[10.10.2022 12:41:49.068] <  8260> cli      | Reconnects: enabled.
+[10.10.2022 12:41:49.068] <  8260> cli      | Overall reconnect timeout [ms]: 1800000.
+[10.10.2022 12:41:49.068] <  8260> cli      | Single attempt interval [ms]: 15000.
+[10.10.2022 12:41:49.068] <  8260> cli      | Method [Generic.SetNetworkReconnectOptions] completed. Elapsed time: [00:00:00.000]
+[10.10.2022 12:41:49.068] <  8260> cli      | -------------------------------------------------------------------------------
+[10.10.2022 12:41:49.068] <  8260> cli      | -------------------------------------------------------------------------------
+[10.10.2022 12:41:49.068] <  8260> cli      | Generic.EnableAgentReconnectPolicy
+[10.10.2022 12:41:49.068] <  8260> cli      |   (EBoolean) IsRemoteAgent = false
+[10.10.2022 12:41:49.068] <  8260> cli      | - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[10.10.2022 12:41:49.068] <  8260> cli      | Enabling agent reconnection policy. Mode: [local].
+[10.10.2022 12:41:49.068] <  8260> cli      | This client session is a control session. Client-server reconnection will be disabled permanently if this session fails.
+[10.10.2022 12:41:49.068] <  8260> cli      | Method [Generic.EnableAgentReconnectPolicy] completed. Elapsed time: [00:00:00.000]
+[10.10.2022 12:41:49.068] <  8260> cli      | -------------------------------------------------------------------------------
+[10.10.2022 12:41:49.084] < 10996> cli      | Next client command: [connectLocal].
+[10.10.2022 12:41:49.084] < 10996> cli      |       :>  192.168.5.61:2500
+[10.10.2022 12:41:49.084] < 10996> cli      |       :>  srv-qa-veeam01.lab.local:2500
+[10.10.2022 12:41:49.084] < 10996> cli      |       :>  .
+[10.10.2022 12:41:49.084] < 10996> cli      |       :>  0
+[10.10.2022 12:41:49.084] < 10996> cli      |       :>  {1c1068df-2168-45d8-a62f-3625b3895ac5}
+[10.10.2022 12:41:49.084] < 10996> cli      |       :>  {e80b66c3-d92e-4024-becb-8ee0c41c9366}
+[10.10.2022 12:41:49.084] < 10996> cli      |       :>  2
+[10.10.2022 12:41:49.084] < 10996> cli      |       :>  00000000-0000-0000-0000-000000000000
+[10.10.2022 12:41:49.084] < 10996> cli      | Connecting to the server agent with the following parameters: [192.168.5.61:2500; srv-qa-veeam01.lab.local:2500].
+[10.10.2022 12:41:49.084] < 10996> cli      |   [Hook] Creating redirection hooks rules instance.
+[10.10.2022 12:41:49.084] < 10996> cli      |   All client-server connections will be established using following reconnect options:
+[10.10.2022 12:41:49.084] < 10996> cli      |     Reconnects: enabled.
+[10.10.2022 12:41:49.084] < 10996> cli      |     Overall reconnect timeout [ms]: 1800000.
+[10.10.2022 12:41:49.084] < 10996> cli      |     Single attempt interval [ms]: 15000.
+[10.10.2022 12:41:49.084] < 10996> cli      |   Trying to connect to the endpoint [192.168.5.61:2500]
+[10.10.2022 12:41:49.084] < 10996> cli      |   Connection status: system:0 ( The operation completed successfully ).
+[10.10.2022 12:41:49.084] < 10996> cli      |   Attempting to establish shared memory connection.
+[10.10.2022 12:41:49.084] < 10996> cli      |     Opening shared memory device with name: [SharedMemDev_{eef7c43f-947e-4f5d-ae5e-096d8690b150}].
+[10.10.2022 12:41:49.084] < 10996> cli      |       Opening process handle for PID: [2176].
+[10.10.2022 12:41:49.084] < 10996> cli      |       Opening ring buffer: [SharedMemDev_{eef7c43f-947e-4f5d-ae5e-096d8690b150}_ForwardBuf_SharedMem].
+[10.10.2022 12:41:49.084] < 10996> cli      |       Opening ring buffer: [SharedMemDev_{eef7c43f-947e-4f5d-ae5e-096d8690b150}_BackwardBuf_SharedMem].
+[10.10.2022 12:41:49.084] < 10996> cli      |     Opening shared memory device with name: [SharedMemDev_{eef7c43f-947e-4f5d-ae5e-096d8690b150}]. ok.
+[10.10.2022 12:41:49.084] < 10996> cli      |   Shared memory connection has been successfully established. Buffer size: [524288]
+[10.10.2022 12:41:49.084] < 10996> cli      |   Login ticket: {1c1068df-2168-45d8-a62f-3625b3895ac5}
+[10.10.2022 12:41:49.084] < 10996> cli      |   Server features: [1], client features: [1], shared features: [1]
+[10.10.2022 12:41:49.084] < 10996> cli      |   Negotiating transport pool id.
+[10.10.2022 12:41:49.084] < 10996> cli      |   Additional transport connections will be assigned to pool '1'.
+[10.10.2022 12:41:49.084] < 10996> net      |   Initiating AUX data channel. Client id: '{94a3523c-1707-4982-95ad-2163a70cba87}'.
+[10.10.2022 12:41:49.084] < 10996> cli      |   Trying to connect to the endpoint [192.168.5.61:2500]
+[10.10.2022 12:41:49.084] < 10996> cli      |   Connection status: system:0 ( The operation completed successfully ).
+[10.10.2022 12:41:49.084] < 10996> net      |   Sending reconnect options: [enabled: timeout 1800000, interval 15000].
+[10.10.2022 12:41:49.084] < 10996> cli      |   Trying to connect to the endpoint [192.168.5.61:2500]
+[10.10.2022 12:41:49.084] <  3868> cli      | Thread started. Thread id: 3868, parent id: 10996, role: (async) reconn. receiver {200dd2db-0d98-49e2-8e2b-e06bfe39343f}
+[10.10.2022 12:41:49.084] <  3868> alg      | Receiver stage: running recv cycle.
+[10.10.2022 12:41:49.084] < 10996> cli      |   Connection status: system:0 ( The operation completed successfully ).
+[10.10.2022 12:41:49.084] <  5492> cli      | Thread started. Thread id: 5492, parent id: 10996, role: (async) reconn. sender {200dd2db-0d98-49e2-8e2b-e06bfe39343f}
+[10.10.2022 12:41:49.084] <  5492> alg      | Sender stage: running send cycle. Resend list: [0].
+[10.10.2022 12:41:49.084] <  1456> cli      | Thread started. Thread id: 1456, parent id: 10996, role: (async) AUX channel receiver
+[10.10.2022 12:41:49.084] < 10996> net      |   Sending reconnect options: [enabled: timeout 1800000, interval 15000].
+[10.10.2022 12:41:49.084] < 10996> cli      |   All connections were established, sending acknowledge.
+[10.10.2022 12:41:49.084] < 10996> cli      | Connection established ( server IP: '192.168.5.61:2500').
+[10.10.2022 12:41:49.084] < 10996> cli      | 
+[10.10.2022 12:41:49.084] < 10996> cli      | _______________________________________________________________________________
+[10.10.2022 12:41:49.084] < 10996> cli      | Waiting for the next command.
+[10.10.2022 12:41:49.084] <  4332> cli      | Thread started. Thread id: 4332, parent id: 10996, role: (async) reconn. sender {74ed6b21-36d7-4dce-bf92-5b9a27af6d56}
+[10.10.2022 12:41:49.084] <  4332> alg      | Sender stage: running send cycle. Resend list: [0].
+[10.10.2022 12:41:49.084] <  5620> cli      | Thread started. Thread id: 5620, parent id: 10996, role: (async) AUX channel sender
+[10.10.2022 12:41:49.084] <  1456> cli      | Remote time: 10.10.2022 12:41:49
+[10.10.2022 12:41:49.084] <  9244> cli      | Thread started. Thread id: 9244, parent id: 10996, role: (async) reconn. receiver {74ed6b21-36d7-4dce-bf92-5b9a27af6d56}
+[10.10.2022 12:41:49.084] <  9244> alg      | Receiver stage: running recv cycle.
+[10.10.2022 12:41:49.131] < 10996> cli      | -------------------------------------------------------------------------------
+[10.10.2022 12:41:49.131] < 10996> cli      | DataTransfer.BackupText
+[10.10.2022 12:41:49.131] < 10996> cli      |   (EString) BackupType = {synth}
+[10.10.2022 12:41:49.131] < 10996> cli      |   (EBoolean) FullCopy = false
+[10.10.2022 12:41:49.131] < 10996> cli      |   (EBoolean) Option.Remote = true
+[10.10.2022 12:41:49.131] < 10996> cli      |   (EBlob) Text = {EBlob: 5883 bytes}
+[10.10.2022 12:41:49.131] < 10996> cli      |   (EString) VbkLink = veeamfs:0:6745a759-2205-4cd2-b172-8ec8f7e60ef8 (f0b12f0a-1178-834d-8432-08b4a90fe6df_dda8303a-acde-4631-b91b-05f7da4153aa)/summary.xml@C:\Backup\job teste\192.168.5.40\job teste - 192.168.5.40D2022-10-10T124135_D8F0.vbk
+[10.10.2022 12:41:49.131] < 10996> cli      | - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[10.10.2022 12:41:49.131] < 10996> cli      | Redirecting command [DataTransfer.BackupText] to server.
+[10.10.2022 12:41:49.162] < 10996> cli      | Method [DataTransfer.BackupText] completed. Elapsed time: [00:00:00.021]
+[10.10.2022 12:41:49.162] < 10996> cli      | -------------------------------------------------------------------------------
+[10.10.2022 12:43:53.412] < 10996> cli      | -------------------------------------------------------------------------------
+[10.10.2022 12:43:53.412] < 10996> cli      | DataTransfer.BackupText
+[10.10.2022 12:43:53.412] < 10996> cli      |   (EString) BackupType = {synth}
+[10.10.2022 12:43:53.412] < 10996> cli      |   (EBoolean) FullCopy = false
+[10.10.2022 12:43:53.412] < 10996> cli      |   (EBoolean) Option.Remote = true
+[10.10.2022 12:43:53.412] < 10996> cli      |   (EBlob) Text = {EBlob: 18185 bytes}
+[10.10.2022 12:43:53.412] < 10996> cli      |   (EString) VbkLink = veeamfs:0:6745a759-2205-4cd2-b172-8ec8f7e60ef8 (f0b12f0a-1178-834d-8432-08b4a90fe6df_dda8303a-acde-4631-b91b-05f7da4153aa)/summary.xml@C:\Backup\job teste\192.168.5.40\job teste - 192.168.5.40D2022-10-10T124135_D8F0.vbk
+[10.10.2022 12:43:53.412] < 10996> cli      | - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[10.10.2022 12:43:53.412] < 10996> cli      | Redirecting command [DataTransfer.BackupText] to server.
+[10.10.2022 12:43:53.443] < 10996> cli      | Method [DataTransfer.BackupText] completed. Elapsed time: [00:00:00.028]
+[10.10.2022 12:43:53.443] < 10996> cli      | -------------------------------------------------------------------------------
+[10.10.2022 12:43:53.443] < 10996> cli      | -------------------------------------------------------------------------------
+[10.10.2022 12:43:53.443] < 10996> cli      | DataTransfer.BackupText
+[10.10.2022 12:43:53.443] < 10996> cli      |   (EString) BackupType = {synth}
+[10.10.2022 12:43:53.443] < 10996> cli      |   (EBoolean) FullCopy = false
+[10.10.2022 12:43:53.443] < 10996> cli      |   (EBoolean) Option.Remote = true
+[10.10.2022 12:43:53.443] < 10996> cli      |   (EBlob) Text = {EBlob: 18185 bytes}
+[10.10.2022 12:43:53.443] < 10996> cli      |   (EString) VbkLink = veeamfs:0:6745a759-2205-4cd2-b172-8ec8f7e60ef8 (f0b12f0a-1178-834d-8432-08b4a90fe6df_dda8303a-acde-4631-b91b-05f7da4153aa)/summary.xml@C:\Backup\job teste\192.168.5.40\job teste - 192.168.5.40D2022-10-10T124135_D8F0.vbk
+[10.10.2022 12:43:53.443] < 10996> cli      | - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[10.10.2022 12:43:53.443] < 10996> cli      | Redirecting command [DataTransfer.BackupText] to server.
+[10.10.2022 12:43:53.474] < 10996> cli      | Method [DataTransfer.BackupText] completed. Elapsed time: [00:00:00.018]
+[10.10.2022 12:43:53.474] < 10996> cli      | -------------------------------------------------------------------------------
+[10.10.2022 12:43:53.474] < 10996> cli      | Next client command: [disconnect].
+[10.10.2022 12:43:53.474] < 10996> net      | AUX channel shutdown triggered.
+[10.10.2022 12:43:53.474] <  5620> net      | AUX data sender: sending shutdown marker.
+[10.10.2022 12:43:53.474] <  3868> alg      | Reconnectable protocol stop request was received on {200dd2db-0d98-49e2-8e2b-e06bfe39343f}.
+[10.10.2022 12:43:53.474] <  4332> alg      | Reconnectable stop request was sent on {74ed6b21-36d7-4dce-bf92-5b9a27af6d56}.
+[10.10.2022 12:43:53.474] <  1456> net      | AUX data receiver: shutdown marker received. Waiting for shutdown.
+[10.10.2022 12:43:53.474] <  9244> alg      | Reconnectable protocol stop request confirmation was received on {74ed6b21-36d7-4dce-bf92-5b9a27af6d56}.
+[10.10.2022 12:43:53.474] <  9244> alg      | Reconnectable protocol stop request was received on {74ed6b21-36d7-4dce-bf92-5b9a27af6d56}.
+[10.10.2022 12:43:53.474] <  9244> alg      | Receiver: finishing on {74ed6b21-36d7-4dce-bf92-5b9a27af6d56}.
+[10.10.2022 12:43:53.474] <  9244> cli      | Thread finished. Role: '(async) reconn. receiver {74ed6b21-36d7-4dce-bf92-5b9a27af6d56}'.
+[10.10.2022 12:43:53.474] <  5492> alg      | Reconnectable stop confirmation was sent on {200dd2db-0d98-49e2-8e2b-e06bfe39343f}.
+[10.10.2022 12:43:53.474] <  4332> alg      | Reconnectable stop confirmation was sent on {74ed6b21-36d7-4dce-bf92-5b9a27af6d56}.
+[10.10.2022 12:43:53.474] <  4332> alg      | Sender stage is finishing.
+[10.10.2022 12:43:53.474] <  4332> cli      | Thread finished. Role: '(async) reconn. sender {74ed6b21-36d7-4dce-bf92-5b9a27af6d56}'.
+[10.10.2022 12:43:53.474] <  5492> alg      | Reconnectable stop request was sent on {200dd2db-0d98-49e2-8e2b-e06bfe39343f}.
+[10.10.2022 12:43:53.474] <  5620> alg      | Traffic history max size: [4].
+[10.10.2022 12:43:53.474] <  5620> cli      | Thread finished. Role: '(async) AUX channel sender'.
+[10.10.2022 12:43:53.474] <  3868> alg      | Reconnectable protocol stop request confirmation was received on {200dd2db-0d98-49e2-8e2b-e06bfe39343f}.
+[10.10.2022 12:43:53.474] <  3868> alg      | Receiver: finishing on {200dd2db-0d98-49e2-8e2b-e06bfe39343f}.
+[10.10.2022 12:43:53.474] <  3868> cli      | Thread finished. Role: '(async) reconn. receiver {200dd2db-0d98-49e2-8e2b-e06bfe39343f}'.
+[10.10.2022 12:43:53.474] <  5492> alg      | Sender stage is finishing.
+[10.10.2022 12:43:53.474] <  5492> cli      | Thread finished. Role: '(async) reconn. sender {200dd2db-0d98-49e2-8e2b-e06bfe39343f}'.
+[10.10.2022 12:43:53.474] <  1456> alg      | Traffic history max size: [4].
+[10.10.2022 12:43:53.474] <  1456> cli      | Thread finished. Role: '(async) AUX channel receiver'.
+[10.10.2022 12:43:53.474] < 10996> cli      | 
+[10.10.2022 12:43:53.474] < 10996> cli      | _______________________________________________________________________________
+[10.10.2022 12:43:53.474] < 10996> cli      | Waiting for the next command.
+[10.10.2022 12:43:53.474] <   748> cli      | Finalization thread: Received external stop event.
+[10.10.2022 12:43:53.474] < 10956> net      | Terminating by stop event in CTcpThread::WaitOrStop.
+[10.10.2022 12:43:53.474] < 10956> net      | Stopping client sessions.
+[10.10.2022 12:43:53.474] <   748> cli      | Thread finished. Role: 'Event listener thread'.
+[10.10.2022 12:43:53.474] <  5252> net      | Terminating by stop event in CTcpThread::WaitOrStop.
+[10.10.2022 12:43:53.474] <  5252> cli      | WARN|Input TCP stream was closed
+[10.10.2022 12:43:53.474] <  5252> net      | Connection closed...
+[10.10.2022 12:43:53.474] <  5252> cli      | Thread finished. Role: 'Client processor thread (127.0.0.1:55309)'.
+[10.10.2022 12:43:53.474] < 10996> net      | Terminating by stop event in CTcpThread::WaitOrStop.
+[10.10.2022 12:43:53.474] < 10996> cli      | WARN|Input TCP stream was closed
+[10.10.2022 12:43:53.474] < 10996> cli      | Removing stdin/stdout redirector: '1617253984544'.
+[10.10.2022 12:43:53.474] < 10996> net      | Connection closed...
+[10.10.2022 12:43:53.474] < 10996> cli      | Thread finished. Role: 'Client processor thread (192.168.5.61:55310)'.
+[10.10.2022 12:43:53.474] <  8260> net      | Terminating by stop event in CTcpThread::WaitOrStop.
+[10.10.2022 12:43:53.474] <  8260> cli      | WARN|Control session with manager was stopped. Raising reconnect stop event.
+[10.10.2022 12:43:53.474] <  8260> cli      | WARN|Input TCP stream was closed
+[10.10.2022 12:43:53.474] <  8260> net      | Connection closed...
+[10.10.2022 12:43:53.474] <  8260> cli      | Thread finished. Role: 'Client processor thread (192.168.5.61:55311)'.
+[10.10.2022 12:43:53.474] < 10956> net      | Veeam RPC server stopped.
+[10.10.2022 12:43:53.474] < 10956> cli      | Thread finished. Role: 'VRPC server thread'.
+[10.10.2022 12:43:53.474] < 10328> cli      |   Cleaning all resumable operations.
+[10.10.2022 12:43:53.474] < 10328> srv      |   Stopping srv. cleanup thread.
+[10.10.2022 12:43:53.474] <  6296> srv      |   Finalizing srv. sessions.
+[10.10.2022 12:43:53.474] <  6296> srv      | Srv. cleanup thread is finished.
+[10.10.2022 12:43:53.474] <  6296> cli      | Thread finished. Role: 'Session container'.
+[10.10.2022 12:43:53.474] < 10328> srv      |   Srv. cleanup thread was stopped.
+[10.10.2022 12:43:53.474] < 10328> dsk      |   Removing attached vmdk disks.
+[10.10.2022 12:43:53.474] < 10328> dsk      |   Disconnecting all VMs
+[10.10.2022 12:43:53.474] < 10328> dsk      |     Disconnecting all VMs...
+[10.10.2022 12:43:53.474] < 10328> dsk      |       Removing all vm connections
+[10.10.2022 12:43:53.474] < 10328> dsk      |     All VMs were successfully disconnected.
+[10.10.2022 12:43:53.474] < 10328> cli      | Client has been stopped.
+[10.10.2022 12:43:53.474] < 10328> cli      | Destroying connection pools.
+[10.10.2022 12:43:53.474] < 10328> cli      | Destroying connection pools. ok.
+[10.10.2022 12:43:53.474] < 10328> cli      | Resetting Veeam agent context
+[10.10.2022 12:43:53.474] < 10328> cli      |   Reset NAS backup context
+[10.10.2022 12:43:53.474] < 10328> cli      |     Disposing message channel context
+[10.10.2022 12:43:53.474] < 10328> cli      |   Reset NAS backup context ok.
+[10.10.2022 12:43:53.474] < 10328> cli      |   Reset storages context
+[10.10.2022 12:43:53.474] < 10328> stg      |     Storages cache is empty : skipping cleanup.
+[10.10.2022 12:43:53.474] < 10328> cli      |   Reset storages context ok.
+[10.10.2022 12:43:53.474] < 10328> cli      |   Reset singleton manager holder
+[10.10.2022 12:43:53.474] < 10960> vim      | Cleanup thread for the VI connections pool has finished.
+[10.10.2022 12:43:53.474] < 10960> cli      | Thread finished. Role: 'Clean up procedure'.
+[10.10.2022 12:43:53.474] < 10328> cli      |   Reset singleton manager holder ok.
+[10.10.2022 12:43:53.474] < 10328> cli      | Resetting Veeam agent context ok.
+[10.10.2022 12:43:53.474] < 10328> cli      | Resetting Veeam agent context
+[10.10.2022 12:43:53.474] < 10328> cli      |   Reset NAS backup context
+[10.10.2022 12:43:53.474] < 10328> cli      |   Reset NAS backup context ok.
+[10.10.2022 12:43:53.474] < 10328> cli      |   Reset storages context
+[10.10.2022 12:43:53.474] < 10328> cli      |   Reset storages context ok.
+[10.10.2022 12:43:53.474] < 10328> cli      |   Reset singleton manager holder
+[10.10.2022 12:43:53.474] < 10328> cli      |   Reset singleton manager holder ok.
+[10.10.2022 12:43:53.474] < 10328> cli      | Resetting Veeam agent context ok.
+[10.10.2022 12:43:53.474] < 10328> cli      | The agent session has finished successfully.
+[10.10.2022 12:52:50.787] <  2332> cli      | LOG: Parsing log parameters ...
+[10.10.2022 12:52:50.787] <  2332> cli      | LOG: Initializing log file ...
+[10.10.2022 12:52:50.787] <  2332> cli      | LOG: C:\ProgramData\Veeam\Backup\job_teste\192.168.5.40\Agent.192.168.5.40.Source.log
+[10.10.2022 12:52:50.787] <  2332>          | ====================================================================================
+[10.10.2022 12:52:50.787] <  2332>          | {
+[10.10.2022 12:52:50.787] <  2332>          |   Veeam Agent
+[10.10.2022 12:52:50.787] <  2332>          |   Path to the executable module: C:\Program Files (x86)\Veeam\Backup Transport\x64\VeeamAgent.exe
+[10.10.2022 12:52:50.787] <  2332>          |   Executable architecture: 64-bit
+[10.10.2022 12:52:50.787] <  2332>          |   Executable version: 11.0.1.1261
+[10.10.2022 12:52:50.787] <  2332>          |   Build edition: standard
+[10.10.2022 12:52:50.787] <  2332>          |   Comments: Private Fix KB20220302,CF-11.0a-CP4-20220302
+[10.10.2022 12:52:50.787] <  2332>          |   OS version: Microsoft Windows Server 2016 (1607, 64-bit) (10.0.14393)
+[10.10.2022 12:52:50.787] <  2332>          |   Processors num: 3
+[10.10.2022 12:52:50.787] <  2332>          |   Active processors mask: 7
+[10.10.2022 12:52:50.787] <  2332>          |   Processor 0: Common KVM processor
+[10.10.2022 12:52:50.787] <  2332>          |   Processor 1: Common KVM processor
+[10.10.2022 12:52:50.787] <  2332>          |   Processor 2: Common KVM processor
+[10.10.2022 12:52:50.787] <  2332>          |   Installed memory, MB: 16371
+[10.10.2022 12:52:50.787] <  2332>          |   PID: 4868
+[10.10.2022 12:52:50.787] <  2332>          | }
+[10.10.2022 12:52:50.787] <  2332>          | Loading options.
+[10.10.2022 12:52:50.787] <  2332>          | Adjusting system file cache limit (25 percent)
+[10.10.2022 12:52:50.787] <  2332>          |   Total physical memory installed: [16371 MB], available: [10294 MB].
+[10.10.2022 12:52:50.787] <  2332>          |   Maximum file cache size is already [4092 MB].
+[10.10.2022 12:52:50.787] <  2332>          | VDDK logging level: 1
+[10.10.2022 12:52:50.787] <  2332>          | Maximum pending blocks value: 10000
+[10.10.2022 12:52:50.787] <  2332>          | AgentId:{0f8e7ee6-7f45-469a-a9e3-b59264ebc58d}
+[10.10.2022 12:52:50.787] < 11168>          | Thread started. Thread id: 11168, parent id: 2332, role: Clean up procedure
+[10.10.2022 12:52:50.787] < 11168> vim      | Entering to the VI connections pool cleanup thread.
+[10.10.2022 12:52:50.787] <  2332>          | Add HostFS to the factories map.
+[10.10.2022 12:52:50.787] <  2332>          | Add cloud to the factories map.
+[10.10.2022 12:52:50.787] <  2332>          | Add nfc to the factories map.
+[10.10.2022 12:52:50.787] <  2332>          | Add TapeFs to the factories map.
+[10.10.2022 12:52:50.787] <  2332>          | Add ddboost to the factories map.
+[10.10.2022 12:52:50.787] <  2332>          | Add storeonce to the factories map.
+[10.10.2022 12:52:50.787] <  2332>          | Add fakestoreonce to the factories map.
+[10.10.2022 12:52:50.787] <  2332>          | Add nfs41 to the factories map.
+[10.10.2022 12:52:50.787] <  2332>          | Add nfs3 to the factories map.
+[10.10.2022 12:52:50.787] <  2332>          | Add nfs to the factories map.
+[10.10.2022 12:52:50.787] <  2332> objagent | ObjAgentLib registry options are loaded
+[10.10.2022 12:52:50.787] <  2332> fs       | Created opened files limit context. Type: [Data], Limit: [10000]
+[10.10.2022 12:52:50.787] <  2332> fs       | Created opened files limit context. Type: [Meta], Limit: [10000]
+[10.10.2022 12:52:50.787] <  2332>          | Management connection keyset: 'ID: 16a77847517cb9a998dd4810888e82f7 (session), keys: 1, repair records: 0 (master keys:)'.
+[10.10.2022 12:52:50.787] <  7772>          | Thread started. Thread id: 7772, parent id: 2332, role: Session container
+[10.10.2022 12:52:50.787] <  7772> srv      | Srv. cleanup thread is started.
+[10.10.2022 12:52:50.787] <  2332> cli      | Client session has been started.
+[10.10.2022 12:52:50.787] <  2332> net      |   vRPC server socket management: Allow local address reuse [false]; Retry bind socket [false]; Wait client shutdown on socket close [false]
+[10.10.2022 12:52:50.787] < 10832> cli      | Thread started. Thread id: 10832, parent id: 2332, role: VRPC server thread
+[10.10.2022 12:52:50.787] < 10832> net      | Veeam RPC server started.
+[10.10.2022 12:52:50.787] < 10832> cli      | SIO_LOOPBACK_FAST_PATH is disabled in configuration
+[10.10.2022 12:52:50.787] < 10832> net      | Selected vRPC port: '2501'.
+[10.10.2022 12:52:50.787] < 10832> net      | Listening vRPC port '2501'.
+[10.10.2022 12:52:50.787] <  2332> cli      |   Opening event: [VeeamEvent{d4b07cea-3e30-48ce-92b4-179b3862c2ce}]
+[10.10.2022 12:52:50.787] <  2332> cli      |   Opening shared memory: [VeeamMem{d4b07cea-3e30-48ce-92b4-179b3862c2ce}]
+[10.10.2022 12:52:50.787] < 10832> net      |   Accepted incoming vRPC connection from '127.0.0.1:55731'.
+[10.10.2022 12:52:50.787] <  4708> cli      | Thread started. Thread id: 4708, parent id: 10832, role: Client processor thread (127.0.0.1:55731)
+[10.10.2022 12:52:50.787] <  4708> net      | Client connected...
+[10.10.2022 12:52:50.787] <  4708> cli      | Creating session ( redirect output session: 'false')
+[10.10.2022 12:52:50.787] <  4708> cli      | CAgentFlowDispatcher: connection will be encrypted. Management keyset: 'ID: 16a77847517cb9a998dd4810888e82f7 (session), keys: 1, repair records: 0 (master keys:)'.
+[10.10.2022 12:52:50.787] <  4708> cli      | Client works in standalone mode.
+[10.10.2022 12:52:50.787] < 10832> net      |   Accepted incoming vRPC connection from '192.168.5.61:55732'.
+[10.10.2022 12:52:50.787] <  3944> cli      | Thread started. Thread id: 3944, parent id: 10832, role: Client processor thread (192.168.5.61:55732)
+[10.10.2022 12:52:50.787] <  3944> net      | Client connected...
+[10.10.2022 12:52:50.787] <  3944> cli      | Creating session ( redirect output session: 'true')
+[10.10.2022 12:52:50.787] <  3944> cli      | CAgentFlowDispatcher: connection will be encrypted. Management keyset: 'ID: 16a77847517cb9a998dd4810888e82f7 (session), keys: 1, repair records: 0 (master keys:)'.
+[10.10.2022 12:52:50.787] <  3944> cli      | Registering stdin/stdout redirector: '1724841499024'.
+[10.10.2022 12:52:50.787] <  3944> cli      | Client works in standalone mode.
+[10.10.2022 12:52:50.803] < 10832> net      |   Accepted incoming vRPC connection from '192.168.5.61:55733'.
+[10.10.2022 12:52:50.803] <  7004> cli      | Thread started. Thread id: 7004, parent id: 10832, role: Client processor thread (192.168.5.61:55733)
+[10.10.2022 12:52:50.803] <  7004> net      | Client connected...
+[10.10.2022 12:52:50.803] <  7004> cli      | Creating session ( redirect output session: 'false')
+[10.10.2022 12:52:50.803] <  7004> cli      | CAgentFlowDispatcher: connection will be encrypted. Management keyset: 'ID: 16a77847517cb9a998dd4810888e82f7 (session), keys: 1, repair records: 0 (master keys:)'.
+[10.10.2022 12:52:50.803] <  7004> cli      | Client works in standalone mode.
+[10.10.2022 12:52:50.803] <  7004> cli      | -------------------------------------------------------------------------------
+[10.10.2022 12:52:50.803] <  7004> cli      | Generic.SetNetworkReconnectOptions
+[10.10.2022 12:52:50.803] <  7004> cli      |   (EUInt64) AttemptIntervalMs = 15000
+[10.10.2022 12:52:50.803] <  7004> cli      |   (EBoolean) Enabled = true
+[10.10.2022 12:52:50.803] <  7004> cli      |   (EUInt64) OverallTimeoutMs = 1800000
+[10.10.2022 12:52:50.803] <  7004> cli      | - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[10.10.2022 12:52:50.803] <  7004> cli      | New client-server reconnection options were set and will be applied to future connections.
+[10.10.2022 12:52:50.803] <  7004> cli      | Reconnects: enabled.
+[10.10.2022 12:52:50.803] <  7004> cli      | Overall reconnect timeout [ms]: 1800000.
+[10.10.2022 12:52:50.803] <  7004> cli      | Single attempt interval [ms]: 15000.
+[10.10.2022 12:52:50.803] <  7004> cli      | Method [Generic.SetNetworkReconnectOptions] completed. Elapsed time: [00:00:00.000]
+[10.10.2022 12:52:50.803] <  7004> cli      | -------------------------------------------------------------------------------
+[10.10.2022 12:52:50.803] <  7004> cli      | -------------------------------------------------------------------------------
+[10.10.2022 12:52:50.803] <  7004> cli      | Generic.EnableAgentReconnectPolicy
+[10.10.2022 12:52:50.803] <  7004> cli      |   (EBoolean) IsRemoteAgent = false
+[10.10.2022 12:52:50.803] <  7004> cli      | - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[10.10.2022 12:52:50.803] <  7004> cli      | Enabling agent reconnection policy. Mode: [local].
+[10.10.2022 12:52:50.803] <  7004> cli      | This client session is a control session. Client-server reconnection will be disabled permanently if this session fails.
+[10.10.2022 12:52:50.803] <  7004> cli      | Method [Generic.EnableAgentReconnectPolicy] completed. Elapsed time: [00:00:00.000]
+[10.10.2022 12:52:50.803] <  7004> cli      | -------------------------------------------------------------------------------
+[10.10.2022 12:52:50.818] <  3944> cli      | Next client command: [connectLocal].
+[10.10.2022 12:52:50.818] <  3944> cli      |       :>  192.168.5.61:2500
+[10.10.2022 12:52:50.818] <  3944> cli      |       :>  srv-qa-veeam01.lab.local:2500
+[10.10.2022 12:52:50.818] <  3944> cli      |       :>  .
+[10.10.2022 12:52:50.818] <  3944> cli      |       :>  0
+[10.10.2022 12:52:50.818] <  3944> cli      |       :>  {fbda8e6f-28d4-4653-ac9d-b5139c2c2e23}
+[10.10.2022 12:52:50.818] <  3944> cli      |       :>  {21a9c0c9-d4e1-4f96-9517-9a1ce662c8b1}
+[10.10.2022 12:52:50.818] <  3944> cli      |       :>  2
+[10.10.2022 12:52:50.818] <  3944> cli      |       :>  00000000-0000-0000-0000-000000000000
+[10.10.2022 12:52:50.818] <  3944> cli      | Connecting to the server agent with the following parameters: [192.168.5.61:2500; srv-qa-veeam01.lab.local:2500].
+[10.10.2022 12:52:50.818] <  3944> cli      |   [Hook] Creating redirection hooks rules instance.
+[10.10.2022 12:52:50.818] <  3944> cli      |   All client-server connections will be established using following reconnect options:
+[10.10.2022 12:52:50.818] <  3944> cli      |     Reconnects: enabled.
+[10.10.2022 12:52:50.818] <  3944> cli      |     Overall reconnect timeout [ms]: 1800000.
+[10.10.2022 12:52:50.818] <  3944> cli      |     Single attempt interval [ms]: 15000.
+[10.10.2022 12:52:50.818] <  3944> cli      |   Trying to connect to the endpoint [192.168.5.61:2500]
+[10.10.2022 12:52:50.818] <  3944> cli      |   Connection status: system:0 ( The operation completed successfully ).
+[10.10.2022 12:52:50.818] <  3944> cli      |   Attempting to establish shared memory connection.
+[10.10.2022 12:52:50.818] <  3944> cli      |     Opening shared memory device with name: [SharedMemDev_{f5591335-385a-4f2d-abff-92eff91993e0}].
+[10.10.2022 12:52:50.818] <  3944> cli      |       Opening process handle for PID: [10604].
+[10.10.2022 12:52:50.818] <  3944> cli      |       Opening ring buffer: [SharedMemDev_{f5591335-385a-4f2d-abff-92eff91993e0}_ForwardBuf_SharedMem].
+[10.10.2022 12:52:50.818] <  3944> cli      |       Opening ring buffer: [SharedMemDev_{f5591335-385a-4f2d-abff-92eff91993e0}_BackwardBuf_SharedMem].
+[10.10.2022 12:52:50.818] <  3944> cli      |     Opening shared memory device with name: [SharedMemDev_{f5591335-385a-4f2d-abff-92eff91993e0}]. ok.
+[10.10.2022 12:52:50.818] <  3944> cli      |   Shared memory connection has been successfully established. Buffer size: [524288]
+[10.10.2022 12:52:50.818] <  3944> cli      |   Login ticket: {fbda8e6f-28d4-4653-ac9d-b5139c2c2e23}
+[10.10.2022 12:52:50.818] <  3944> cli      |   Server features: [1], client features: [1], shared features: [1]
+[10.10.2022 12:52:50.818] <  3944> cli      |   Negotiating transport pool id.
+[10.10.2022 12:52:50.818] <  3944> cli      |   Additional transport connections will be assigned to pool '1'.
+[10.10.2022 12:52:50.818] <  3944> net      |   Initiating AUX data channel. Client id: '{12e08ab7-a6a7-4271-bc7a-f56d61a1af87}'.
+[10.10.2022 12:52:50.818] <  3944> cli      |   Trying to connect to the endpoint [192.168.5.61:2500]
+[10.10.2022 12:52:50.818] <  3944> cli      |   Connection status: system:0 ( The operation completed successfully ).
+[10.10.2022 12:52:50.818] <  3944> net      |   Sending reconnect options: [enabled: timeout 1800000, interval 15000].
+[10.10.2022 12:52:50.818] <  3944> cli      |   Trying to connect to the endpoint [192.168.5.61:2500]
+[10.10.2022 12:52:50.818] < 11192> cli      | Thread started. Thread id: 11192, parent id: 3944, role: (async) reconn. receiver {5c53aa86-5743-4ad1-a5f7-416f544773dd}
+[10.10.2022 12:52:50.818] < 11192> alg      | Receiver stage: running recv cycle.
+[10.10.2022 12:52:50.818] <  6968> cli      | Thread started. Thread id: 6968, parent id: 3944, role: (async) reconn. sender {5c53aa86-5743-4ad1-a5f7-416f544773dd}
+[10.10.2022 12:52:50.818] <  8484> cli      | Thread started. Thread id: 8484, parent id: 3944, role: (async) AUX channel receiver
+[10.10.2022 12:52:50.818] <  3944> cli      |   Connection status: system:0 ( The operation completed successfully ).
+[10.10.2022 12:52:50.818] <  6968> alg      | Sender stage: running send cycle. Resend list: [0].
+[10.10.2022 12:52:50.818] <  3944> net      |   Sending reconnect options: [enabled: timeout 1800000, interval 15000].
+[10.10.2022 12:52:50.818] <  3944> cli      |   All connections were established, sending acknowledge.
+[10.10.2022 12:52:50.818] < 10980> cli      | Thread started. Thread id: 10980, parent id: 3944, role: (async) reconn. receiver {537e6f32-7c3c-440f-bbf5-80166c5db159}
+[10.10.2022 12:52:50.818] < 10980> alg      | Receiver stage: running recv cycle.
+[10.10.2022 12:52:50.818] <  3944> cli      | Connection established ( server IP: '192.168.5.61:2500').
+[10.10.2022 12:52:50.818] <  9880> cli      | Thread started. Thread id: 9880, parent id: 3944, role: (async) reconn. sender {537e6f32-7c3c-440f-bbf5-80166c5db159}
+[10.10.2022 12:52:50.818] <  3944> cli      | 
+[10.10.2022 12:52:50.818] <  3944> cli      | _______________________________________________________________________________
+[10.10.2022 12:52:50.818] <  3944> cli      | Waiting for the next command.
+[10.10.2022 12:52:50.818] <  9880> alg      | Sender stage: running send cycle. Resend list: [0].
+[10.10.2022 12:52:50.818] < 10920> cli      | Thread started. Thread id: 10920, parent id: 3944, role: (async) AUX channel sender
+[10.10.2022 12:52:50.818] <  8484> cli      | Remote time: 10.10.2022 12:52:50
+[10.10.2022 12:52:51.709] <  3944> cli      | -------------------------------------------------------------------------------
+[10.10.2022 12:52:51.709] <  3944> cli      | DataTransfer.BackupText
+[10.10.2022 12:52:51.709] <  3944> cli      |   (EString) BackupType = {synth}
+[10.10.2022 12:52:51.709] <  3944> cli      |   (EBoolean) FullCopy = false
+[10.10.2022 12:52:51.709] <  3944> cli      |   (EBoolean) Option.Remote = true
+[10.10.2022 12:52:51.709] <  3944> cli      |   (EBlob) Text = {EBlob: 6013 bytes}
+[10.10.2022 12:52:51.709] <  3944> cli      |   (EString) VbkLink = veeamfs:0:6745a759-2205-4cd2-b172-8ec8f7e60ef8 (f0b12f0a-1178-834d-8432-08b4a90fe6df_dda8303a-acde-4631-b91b-05f7da4153aa)/summary.xml@C:\Backup\job teste\192.168.5.40\job teste - 192.168.5.40D2022-10-10T125234_31B5.vib
+[10.10.2022 12:52:51.709] <  3944> cli      | - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[10.10.2022 12:52:51.709] <  3944> cli      | Redirecting command [DataTransfer.BackupText] to server.
+[10.10.2022 12:52:51.725] <  3944> cli      | Method [DataTransfer.BackupText] completed. Elapsed time: [00:00:00.020]
+[10.10.2022 12:52:51.725] <  3944> cli      | -------------------------------------------------------------------------------
+[10.10.2022 12:54:55.865] <  3944> cli      | -------------------------------------------------------------------------------
+[10.10.2022 12:54:55.865] <  3944> cli      | DataTransfer.BackupText
+[10.10.2022 12:54:55.865] <  3944> cli      |   (EString) BackupType = {synth}
+[10.10.2022 12:54:55.865] <  3944> cli      |   (EBoolean) FullCopy = false
+[10.10.2022 12:54:55.865] <  3944> cli      |   (EBoolean) Option.Remote = true
+[10.10.2022 12:54:55.865] <  3944> cli      |   (EBlob) Text = {EBlob: 18230 bytes}
+[10.10.2022 12:54:55.865] <  3944> cli      |   (EString) VbkLink = veeamfs:0:6745a759-2205-4cd2-b172-8ec8f7e60ef8 (f0b12f0a-1178-834d-8432-08b4a90fe6df_dda8303a-acde-4631-b91b-05f7da4153aa)/summary.xml@C:\Backup\job teste\192.168.5.40\job teste - 192.168.5.40D2022-10-10T125234_31B5.vib
+[10.10.2022 12:54:55.865] <  3944> cli      | - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[10.10.2022 12:54:55.865] <  3944> cli      | Redirecting command [DataTransfer.BackupText] to server.
+[10.10.2022 12:54:55.881] <  3944> cli      | Method [DataTransfer.BackupText] completed. Elapsed time: [00:00:00.029]
+[10.10.2022 12:54:55.881] <  3944> cli      | -------------------------------------------------------------------------------
+[10.10.2022 12:54:55.896] <  3944> cli      | -------------------------------------------------------------------------------
+[10.10.2022 12:54:55.896] <  3944> cli      | DataTransfer.BackupText
+[10.10.2022 12:54:55.896] <  3944> cli      |   (EString) BackupType = {synth}
+[10.10.2022 12:54:55.896] <  3944> cli      |   (EBoolean) FullCopy = false
+[10.10.2022 12:54:55.896] <  3944> cli      |   (EBoolean) Option.Remote = true
+[10.10.2022 12:54:55.896] <  3944> cli      |   (EBlob) Text = {EBlob: 18230 bytes}
+[10.10.2022 12:54:55.896] <  3944> cli      |   (EString) VbkLink = veeamfs:0:6745a759-2205-4cd2-b172-8ec8f7e60ef8 (f0b12f0a-1178-834d-8432-08b4a90fe6df_dda8303a-acde-4631-b91b-05f7da4153aa)/summary.xml@C:\Backup\job teste\192.168.5.40\job teste - 192.168.5.40D2022-10-10T125234_31B5.vib
+[10.10.2022 12:54:55.896] <  3944> cli      | - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[10.10.2022 12:54:55.896] <  3944> cli      | Redirecting command [DataTransfer.BackupText] to server.
+[10.10.2022 12:54:55.912] <  3944> cli      | Method [DataTransfer.BackupText] completed. Elapsed time: [00:00:00.018]
+[10.10.2022 12:54:55.912] <  3944> cli      | -------------------------------------------------------------------------------
+[10.10.2022 12:54:55.928] <  3944> cli      | Next client command: [disconnect].
+[10.10.2022 12:54:55.928] <  3944> net      | AUX channel shutdown triggered.
+[10.10.2022 12:54:55.928] < 10920> net      | AUX data sender: sending shutdown marker.
+[10.10.2022 12:54:55.928] <  9880> alg      | Reconnectable stop request was sent on {537e6f32-7c3c-440f-bbf5-80166c5db159}.
+[10.10.2022 12:54:55.928] < 11192> alg      | Reconnectable protocol stop request was received on {5c53aa86-5743-4ad1-a5f7-416f544773dd}.
+[10.10.2022 12:54:55.928] < 10980> alg      | Reconnectable protocol stop request confirmation was received on {537e6f32-7c3c-440f-bbf5-80166c5db159}.
+[10.10.2022 12:54:55.928] <  8484> net      | AUX data receiver: shutdown marker received. Waiting for shutdown.
+[10.10.2022 12:54:55.928] < 10980> alg      | Reconnectable protocol stop request was received on {537e6f32-7c3c-440f-bbf5-80166c5db159}.
+[10.10.2022 12:54:55.928] < 10980> alg      | Receiver: finishing on {537e6f32-7c3c-440f-bbf5-80166c5db159}.
+[10.10.2022 12:54:55.928] < 10980> cli      | Thread finished. Role: '(async) reconn. receiver {537e6f32-7c3c-440f-bbf5-80166c5db159}'.
+[10.10.2022 12:54:55.928] <  6968> alg      | Reconnectable stop confirmation was sent on {5c53aa86-5743-4ad1-a5f7-416f544773dd}.
+[10.10.2022 12:54:55.928] <  6968> alg      | Reconnectable stop request was sent on {5c53aa86-5743-4ad1-a5f7-416f544773dd}.
+[10.10.2022 12:54:55.928] <  9880> alg      | Reconnectable stop confirmation was sent on {537e6f32-7c3c-440f-bbf5-80166c5db159}.
+[10.10.2022 12:54:55.928] <  9880> alg      | Sender stage is finishing.
+[10.10.2022 12:54:55.928] < 11192> alg      | Reconnectable protocol stop request confirmation was received on {5c53aa86-5743-4ad1-a5f7-416f544773dd}.
+[10.10.2022 12:54:55.928] < 11192> alg      | Receiver: finishing on {5c53aa86-5743-4ad1-a5f7-416f544773dd}.
+[10.10.2022 12:54:55.928] < 11192> cli      | Thread finished. Role: '(async) reconn. receiver {5c53aa86-5743-4ad1-a5f7-416f544773dd}'.
+[10.10.2022 12:54:55.928] <  6968> alg      | Sender stage is finishing.
+[10.10.2022 12:54:55.928] <  9880> cli      | Thread finished. Role: '(async) reconn. sender {537e6f32-7c3c-440f-bbf5-80166c5db159}'.
+[10.10.2022 12:54:55.928] < 10920> alg      | Traffic history max size: [4].
+[10.10.2022 12:54:55.928] < 10920> cli      | Thread finished. Role: '(async) AUX channel sender'.
+[10.10.2022 12:54:55.928] <  6968> cli      | Thread finished. Role: '(async) reconn. sender {5c53aa86-5743-4ad1-a5f7-416f544773dd}'.
+[10.10.2022 12:54:55.928] <  8484> alg      | Traffic history max size: [4].
+[10.10.2022 12:54:55.928] <  8484> cli      | Thread finished. Role: '(async) AUX channel receiver'.
+[10.10.2022 12:54:55.928] <  3944> cli      | 
+[10.10.2022 12:54:55.928] <  3944> cli      | _______________________________________________________________________________
+[10.10.2022 12:54:55.928] <  3944> cli      | Waiting for the next command.
+[10.10.2022 12:54:55.943] <  2336> cli      | Finalization thread: Received external stop event.
+[10.10.2022 12:54:55.943] <  2336> cli      | Thread finished. Role: 'Event listener thread'.
+[10.10.2022 12:54:55.943] < 10832> net      | Terminating by stop event in CTcpThread::WaitOrStop.
+[10.10.2022 12:54:55.943] < 10832> net      | Stopping client sessions.
+[10.10.2022 12:54:55.943] <  4708> net      | Terminating by stop event in CTcpThread::WaitOrStop.
+[10.10.2022 12:54:55.943] <  4708> cli      | WARN|Input TCP stream was closed
+[10.10.2022 12:54:55.943] <  4708> net      | Connection closed...
+[10.10.2022 12:54:55.943] <  4708> cli      | Thread finished. Role: 'Client processor thread (127.0.0.1:55731)'.
+[10.10.2022 12:54:55.943] <  3944> net      | Terminating by stop event in CTcpThread::WaitOrStop.
+[10.10.2022 12:54:55.943] <  3944> cli      | WARN|Input TCP stream was closed
+[10.10.2022 12:54:55.943] <  3944> cli      | Removing stdin/stdout redirector: '1724841499024'.
+[10.10.2022 12:54:55.943] <  3944> net      | Connection closed...
+[10.10.2022 12:54:55.943] <  3944> cli      | Thread finished. Role: 'Client processor thread (192.168.5.61:55732)'.
+[10.10.2022 12:54:55.943] <  7004> net      | Terminating by stop event in CTcpThread::WaitOrStop.
+[10.10.2022 12:54:55.943] <  7004> cli      | WARN|Control session with manager was stopped. Raising reconnect stop event.
+[10.10.2022 12:54:55.943] <  7004> cli      | WARN|Input TCP stream was closed
+[10.10.2022 12:54:55.943] <  7004> net      | Connection closed...
+[10.10.2022 12:54:55.943] <  7004> cli      | Thread finished. Role: 'Client processor thread (192.168.5.61:55733)'.
+[10.10.2022 12:54:55.943] < 10832> net      | Veeam RPC server stopped.
+[10.10.2022 12:54:55.943] < 10832> cli      | Thread finished. Role: 'VRPC server thread'.
+[10.10.2022 12:54:55.943] <  2332> cli      |   Cleaning all resumable operations.
+[10.10.2022 12:54:55.943] <  2332> srv      |   Stopping srv. cleanup thread.
+[10.10.2022 12:54:55.943] <  7772> srv      |   Finalizing srv. sessions.
+[10.10.2022 12:54:55.943] <  7772> srv      | Srv. cleanup thread is finished.
+[10.10.2022 12:54:55.943] <  7772> cli      | Thread finished. Role: 'Session container'.
+[10.10.2022 12:54:55.943] <  2332> srv      |   Srv. cleanup thread was stopped.
+[10.10.2022 12:54:55.943] <  2332> dsk      |   Removing attached vmdk disks.
+[10.10.2022 12:54:55.943] <  2332> dsk      |   Disconnecting all VMs
+[10.10.2022 12:54:55.943] <  2332> dsk      |     Disconnecting all VMs...
+[10.10.2022 12:54:55.943] <  2332> dsk      |       Removing all vm connections
+[10.10.2022 12:54:55.943] <  2332> dsk      |     All VMs were successfully disconnected.
+[10.10.2022 12:54:55.943] <  2332> cli      | Client has been stopped.
+[10.10.2022 12:54:55.943] <  2332> cli      | Destroying connection pools.
+[10.10.2022 12:54:55.943] <  2332> cli      | Destroying connection pools. ok.
+[10.10.2022 12:54:55.943] <  2332> cli      | Resetting Veeam agent context
+[10.10.2022 12:54:55.943] <  2332> cli      |   Reset NAS backup context
+[10.10.2022 12:54:55.943] <  2332> cli      |     Disposing message channel context
+[10.10.2022 12:54:55.943] <  2332> cli      |   Reset NAS backup context ok.
+[10.10.2022 12:54:55.943] <  2332> cli      |   Reset storages context
+[10.10.2022 12:54:55.943] <  2332> stg      |     Storages cache is empty : skipping cleanup.
+[10.10.2022 12:54:55.943] <  2332> cli      |   Reset storages context ok.
+[10.10.2022 12:54:55.943] <  2332> cli      |   Reset singleton manager holder
+[10.10.2022 12:54:55.943] < 11168> vim      | Cleanup thread for the VI connections pool has finished.
+[10.10.2022 12:54:55.943] < 11168> cli      | Thread finished. Role: 'Clean up procedure'.
+[10.10.2022 12:54:55.943] <  2332> cli      |   Reset singleton manager holder ok.
+[10.10.2022 12:54:55.943] <  2332> cli      | Resetting Veeam agent context ok.
+[10.10.2022 12:54:55.943] <  2332> cli      | Resetting Veeam agent context
+[10.10.2022 12:54:55.943] <  2332> cli      |   Reset NAS backup context
+[10.10.2022 12:54:55.943] <  2332> cli      |   Reset NAS backup context ok.
+[10.10.2022 12:54:55.943] <  2332> cli      |   Reset storages context
+[10.10.2022 12:54:55.943] <  2332> cli      |   Reset storages context ok.
+[10.10.2022 12:54:55.943] <  2332> cli      |   Reset singleton manager holder
+[10.10.2022 12:54:55.943] <  2332> cli      |   Reset singleton manager holder ok.
+[10.10.2022 12:54:55.943] <  2332> cli      | Resetting Veeam agent context ok.
+[10.10.2022 12:54:55.943] <  2332> cli      | The agent session has finished successfully.
+[10.10.2022 12:57:15.131] < 10008> cli      | LOG: Parsing log parameters ...
+[10.10.2022 12:57:15.131] < 10008> cli      | LOG: Initializing log file ...
+[10.10.2022 12:57:15.131] < 10008> cli      | LOG: C:\ProgramData\Veeam\Backup\job_teste\192.168.5.40\Agent.192.168.5.40.Source.log
+[10.10.2022 12:57:15.131] < 10008>          | ====================================================================================
+[10.10.2022 12:57:15.131] < 10008>          | {
+[10.10.2022 12:57:15.131] < 10008>          |   Veeam Agent
+[10.10.2022 12:57:15.131] < 10008>          |   Path to the executable module: C:\Program Files (x86)\Veeam\Backup Transport\x64\VeeamAgent.exe
+[10.10.2022 12:57:15.131] < 10008>          |   Executable architecture: 64-bit
+[10.10.2022 12:57:15.131] < 10008>          |   Executable version: 11.0.1.1261
+[10.10.2022 12:57:15.131] < 10008>          |   Build edition: standard
+[10.10.2022 12:57:15.131] < 10008>          |   Comments: Private Fix KB20220302,CF-11.0a-CP4-20220302
+[10.10.2022 12:57:15.131] < 10008>          |   OS version: Microsoft Windows Server 2016 (1607, 64-bit) (10.0.14393)
+[10.10.2022 12:57:15.131] < 10008>          |   Processors num: 3
+[10.10.2022 12:57:15.131] < 10008>          |   Active processors mask: 7
+[10.10.2022 12:57:15.131] < 10008>          |   Processor 0: Common KVM processor
+[10.10.2022 12:57:15.131] < 10008>          |   Processor 1: Common KVM processor
+[10.10.2022 12:57:15.131] < 10008>          |   Processor 2: Common KVM processor
+[10.10.2022 12:57:15.131] < 10008>          |   Installed memory, MB: 16371
+[10.10.2022 12:57:15.131] < 10008>          |   PID: 9348
+[10.10.2022 12:57:15.131] < 10008>          | }
+[10.10.2022 12:57:15.131] < 10008>          | Loading options.
+[10.10.2022 12:57:15.131] < 10008>          | Adjusting system file cache limit (25 percent)
+[10.10.2022 12:57:15.131] < 10008>          |   Total physical memory installed: [16371 MB], available: [10214 MB].
+[10.10.2022 12:57:15.131] < 10008>          |   Maximum file cache size is already [4092 MB].
+[10.10.2022 12:57:15.131] < 10008>          | VDDK logging level: 1
+[10.10.2022 12:57:15.131] < 10008>          | Maximum pending blocks value: 10000
+[10.10.2022 12:57:15.131] < 10008>          | AgentId:{cd7d84ed-cb0b-41e9-8e77-654f8bfef2c9}
+[10.10.2022 12:57:15.131] < 10388>          | Thread started. Thread id: 10388, parent id: 10008, role: Clean up procedure
+[10.10.2022 12:57:15.131] < 10388> vim      | Entering to the VI connections pool cleanup thread.
+[10.10.2022 12:57:15.131] < 10008>          | Add HostFS to the factories map.
+[10.10.2022 12:57:15.131] < 10008>          | Add cloud to the factories map.
+[10.10.2022 12:57:15.131] < 10008>          | Add nfc to the factories map.
+[10.10.2022 12:57:15.131] < 10008>          | Add TapeFs to the factories map.
+[10.10.2022 12:57:15.131] < 10008>          | Add ddboost to the factories map.
+[10.10.2022 12:57:15.131] < 10008>          | Add storeonce to the factories map.
+[10.10.2022 12:57:15.131] < 10008>          | Add fakestoreonce to the factories map.
+[10.10.2022 12:57:15.131] < 10008>          | Add nfs41 to the factories map.
+[10.10.2022 12:57:15.131] < 10008>          | Add nfs3 to the factories map.
+[10.10.2022 12:57:15.131] < 10008>          | Add nfs to the factories map.
+[10.10.2022 12:57:15.131] < 10008> objagent | ObjAgentLib registry options are loaded
+[10.10.2022 12:57:15.131] < 10008> fs       | Created opened files limit context. Type: [Data], Limit: [10000]
+[10.10.2022 12:57:15.131] < 10008> fs       | Created opened files limit context. Type: [Meta], Limit: [10000]
+[10.10.2022 12:57:15.131] < 10008>          | Management connection keyset: 'ID: b639e04b82a4e695117b4a4cbeac89df (session), keys: 1, repair records: 0 (master keys:)'.
+[10.10.2022 12:57:15.131] < 11232>          | Thread started. Thread id: 11232, parent id: 10008, role: Session container
+[10.10.2022 12:57:15.131] < 11232> srv      | Srv. cleanup thread is started.
+[10.10.2022 12:57:15.131] < 10008> cli      | Client session has been started.
+[10.10.2022 12:57:15.131] < 10008> net      |   vRPC server socket management: Allow local address reuse [false]; Retry bind socket [false]; Wait client shutdown on socket close [false]
+[10.10.2022 12:57:15.131] < 11224> cli      | Thread started. Thread id: 11224, parent id: 10008, role: VRPC server thread
+[10.10.2022 12:57:15.131] < 11224> net      | Veeam RPC server started.
+[10.10.2022 12:57:15.131] < 11224> cli      | SIO_LOOPBACK_FAST_PATH is disabled in configuration
+[10.10.2022 12:57:15.131] < 11224> net      | Selected vRPC port: '2500'.
+[10.10.2022 12:57:15.131] < 11224> net      | Listening vRPC port '2500'.
+[10.10.2022 12:57:15.131] < 10008> cli      |   Opening event: [VeeamEvent{d6dd6100-a49e-4050-961c-ad9225915181}]
+[10.10.2022 12:57:15.131] < 10008> cli      |   Opening shared memory: [VeeamMem{d6dd6100-a49e-4050-961c-ad9225915181}]
+[10.10.2022 12:57:15.131] < 11224> net      |   Accepted incoming vRPC connection from '127.0.0.1:55959'.
+[10.10.2022 12:57:15.131] < 10824> cli      | Thread started. Thread id: 10824, parent id: 11224, role: Client processor thread (127.0.0.1:55959)
+[10.10.2022 12:57:15.131] < 10824> net      | Client connected...
+[10.10.2022 12:57:15.131] < 10824> cli      | Creating session ( redirect output session: 'false')
+[10.10.2022 12:57:15.131] < 10824> cli      | CAgentFlowDispatcher: connection will be encrypted. Management keyset: 'ID: b639e04b82a4e695117b4a4cbeac89df (session), keys: 1, repair records: 0 (master keys:)'.
+[10.10.2022 12:57:15.131] < 10824> cli      | Client works in standalone mode.
+[10.10.2022 12:57:15.178] < 11224> net      |   Accepted incoming vRPC connection from '192.168.5.61:55960'.
+[10.10.2022 12:57:15.178] <  8180> cli      | Thread started. Thread id: 8180, parent id: 11224, role: Client processor thread (192.168.5.61:55960)
+[10.10.2022 12:57:15.178] <  8180> net      | Client connected...
+[10.10.2022 12:57:15.178] <  8180> cli      | Creating session ( redirect output session: 'true')
+[10.10.2022 12:57:15.178] <  8180> cli      | CAgentFlowDispatcher: connection will be encrypted. Management keyset: 'ID: b639e04b82a4e695117b4a4cbeac89df (session), keys: 1, repair records: 0 (master keys:)'.
+[10.10.2022 12:57:15.178] <  8180> cli      | Registering stdin/stdout redirector: '2539995227184'.
+[10.10.2022 12:57:15.178] <  8180> cli      | Client works in standalone mode.
+[10.10.2022 12:57:15.178] < 11224> net      |   Accepted incoming vRPC connection from '192.168.5.61:55961'.
+[10.10.2022 12:57:15.178] <  8360> cli      | Thread started. Thread id: 8360, parent id: 11224, role: Client processor thread (192.168.5.61:55961)
+[10.10.2022 12:57:15.178] <  8360> net      | Client connected...
+[10.10.2022 12:57:15.178] <  8360> cli      | Creating session ( redirect output session: 'false')
+[10.10.2022 12:57:15.178] <  8360> cli      | CAgentFlowDispatcher: connection will be encrypted. Management keyset: 'ID: b639e04b82a4e695117b4a4cbeac89df (session), keys: 1, repair records: 0 (master keys:)'.
+[10.10.2022 12:57:15.178] <  8360> cli      | Client works in standalone mode.
+[10.10.2022 12:57:15.178] <  8360> cli      | -------------------------------------------------------------------------------
+[10.10.2022 12:57:15.178] <  8360> cli      | Generic.SetNetworkReconnectOptions
+[10.10.2022 12:57:15.178] <  8360> cli      |   (EUInt64) AttemptIntervalMs = 15000
+[10.10.2022 12:57:15.178] <  8360> cli      |   (EBoolean) Enabled = true
+[10.10.2022 12:57:15.178] <  8360> cli      |   (EUInt64) OverallTimeoutMs = 1800000
+[10.10.2022 12:57:15.178] <  8360> cli      | - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[10.10.2022 12:57:15.178] <  8360> cli      | New client-server reconnection options were set and will be applied to future connections.
+[10.10.2022 12:57:15.178] <  8360> cli      | Reconnects: enabled.
+[10.10.2022 12:57:15.178] <  8360> cli      | Overall reconnect timeout [ms]: 1800000.
+[10.10.2022 12:57:15.178] <  8360> cli      | Single attempt interval [ms]: 15000.
+[10.10.2022 12:57:15.178] <  8360> cli      | Method [Generic.SetNetworkReconnectOptions] completed. Elapsed time: [00:00:00.000]
+[10.10.2022 12:57:15.178] <  8360> cli      | -------------------------------------------------------------------------------
+[10.10.2022 12:57:15.178] <  8360> cli      | -------------------------------------------------------------------------------
+[10.10.2022 12:57:15.178] <  8360> cli      | Generic.EnableAgentReconnectPolicy
+[10.10.2022 12:57:15.178] <  8360> cli      |   (EBoolean) IsRemoteAgent = false
+[10.10.2022 12:57:15.178] <  8360> cli      | - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[10.10.2022 12:57:15.178] <  8360> cli      | Enabling agent reconnection policy. Mode: [local].
+[10.10.2022 12:57:15.178] <  8360> cli      | This client session is a control session. Client-server reconnection will be disabled permanently if this session fails.
+[10.10.2022 12:57:15.178] <  8360> cli      | Method [Generic.EnableAgentReconnectPolicy] completed. Elapsed time: [00:00:00.000]
+[10.10.2022 12:57:15.178] <  8360> cli      | -------------------------------------------------------------------------------
+[10.10.2022 12:57:15.178] <  8180> cli      | Next client command: [connectLocal].
+[10.10.2022 12:57:15.178] <  8180> cli      |       :>  192.168.5.61:2501
+[10.10.2022 12:57:15.178] <  8180> cli      |       :>  srv-qa-veeam01.lab.local:2501
+[10.10.2022 12:57:15.178] <  8180> cli      |       :>  .
+[10.10.2022 12:57:15.178] <  8180> cli      |       :>  0
+[10.10.2022 12:57:15.178] <  8180> cli      |       :>  {2049314d-a8a0-4d5d-b98a-d8e952ef8c28}
+[10.10.2022 12:57:15.178] <  8180> cli      |       :>  {ce88f53d-63bd-4baa-8681-7a4c3daae5ec}
+[10.10.2022 12:57:15.178] <  8180> cli      |       :>  2
+[10.10.2022 12:57:15.178] <  8180> cli      |       :>  00000000-0000-0000-0000-000000000000
+[10.10.2022 12:57:15.178] <  8180> cli      | Connecting to the server agent with the following parameters: [192.168.5.61:2501; srv-qa-veeam01.lab.local:2501].
+[10.10.2022 12:57:15.178] <  8180> cli      |   [Hook] Creating redirection hooks rules instance.
+[10.10.2022 12:57:15.178] <  8180> cli      |   All client-server connections will be established using following reconnect options:
+[10.10.2022 12:57:15.178] <  8180> cli      |     Reconnects: enabled.
+[10.10.2022 12:57:15.178] <  8180> cli      |     Overall reconnect timeout [ms]: 1800000.
+[10.10.2022 12:57:15.178] <  8180> cli      |     Single attempt interval [ms]: 15000.
+[10.10.2022 12:57:15.178] <  8180> cli      |   Trying to connect to the endpoint [192.168.5.61:2501]
+[10.10.2022 12:57:15.178] <  8180> cli      |   Connection status: system:0 ( The operation completed successfully ).
+[10.10.2022 12:57:15.178] <  8180> cli      |   Attempting to establish shared memory connection.
+[10.10.2022 12:57:15.178] <  8180> cli      |     Opening shared memory device with name: [SharedMemDev_{d3fe7248-17e4-4be8-abc3-d50304f4860b}].
+[10.10.2022 12:57:15.178] <  8180> cli      |       Opening process handle for PID: [9476].
+[10.10.2022 12:57:15.178] <  8180> cli      |       Opening ring buffer: [SharedMemDev_{d3fe7248-17e4-4be8-abc3-d50304f4860b}_ForwardBuf_SharedMem].
+[10.10.2022 12:57:15.178] <  8180> cli      |       Opening ring buffer: [SharedMemDev_{d3fe7248-17e4-4be8-abc3-d50304f4860b}_BackwardBuf_SharedMem].
+[10.10.2022 12:57:15.178] <  8180> cli      |     Opening shared memory device with name: [SharedMemDev_{d3fe7248-17e4-4be8-abc3-d50304f4860b}]. ok.
+[10.10.2022 12:57:15.178] <  8180> cli      |   Shared memory connection has been successfully established. Buffer size: [524288]
+[10.10.2022 12:57:15.178] <  8180> cli      |   Login ticket: {2049314d-a8a0-4d5d-b98a-d8e952ef8c28}
+[10.10.2022 12:57:15.178] <  8180> cli      |   Server features: [1], client features: [1], shared features: [1]
+[10.10.2022 12:57:15.178] <  8180> cli      |   Negotiating transport pool id.
+[10.10.2022 12:57:15.178] <  8180> cli      |   Additional transport connections will be assigned to pool '1'.
+[10.10.2022 12:57:15.178] <  8180> net      |   Initiating AUX data channel. Client id: '{b0cdd629-b22f-476d-b0bf-b8de5e111331}'.
+[10.10.2022 12:57:15.178] <  8180> cli      |   Trying to connect to the endpoint [192.168.5.61:2501]
+[10.10.2022 12:57:15.178] <  8180> cli      |   Connection status: system:0 ( The operation completed successfully ).
+[10.10.2022 12:57:15.178] <  8180> net      |   Sending reconnect options: [enabled: timeout 1800000, interval 15000].
+[10.10.2022 12:57:15.178] <  8180> cli      |   Trying to connect to the endpoint [192.168.5.61:2501]
+[10.10.2022 12:57:15.178] <  1172> cli      | Thread started. Thread id: 1172, parent id: 8180, role: (async) reconn. sender {3be24ee7-5efe-4f02-9bba-394b81a71686}
+[10.10.2022 12:57:15.178] <  1172> alg      | Sender stage: running send cycle. Resend list: [0].
+[10.10.2022 12:57:15.193] <  8180> cli      |   Connection status: system:0 ( The operation completed successfully ).
+[10.10.2022 12:57:15.193] < 11116> cli      | Thread started. Thread id: 11116, parent id: 8180, role: (async) AUX channel receiver
+[10.10.2022 12:57:15.193] <  8180> net      |   Sending reconnect options: [enabled: timeout 1800000, interval 15000].
+[10.10.2022 12:57:15.193] <  5864> cli      | Thread started. Thread id: 5864, parent id: 8180, role: (async) reconn. receiver {3be24ee7-5efe-4f02-9bba-394b81a71686}
+[10.10.2022 12:57:15.193] <  5864> alg      | Receiver stage: running recv cycle.
+[10.10.2022 12:57:15.193] <  1444> cli      | Thread started. Thread id: 1444, parent id: 8180, role: (async) reconn. receiver {10d8d77e-caab-4cf0-b9e5-6a89d0883bb6}
+[10.10.2022 12:57:15.193] <  8180> cli      |   All connections were established, sending acknowledge.
+[10.10.2022 12:57:15.193] <  8180> cli      | Connection established ( server IP: '192.168.5.61:2501').
+[10.10.2022 12:57:15.193] <  8180> cli      | 
+[10.10.2022 12:57:15.193] <  8180> cli      | _______________________________________________________________________________
+[10.10.2022 12:57:15.193] <  8180> cli      | Waiting for the next command.
+[10.10.2022 12:57:15.193] <  1444> alg      | Receiver stage: running recv cycle.
+[10.10.2022 12:57:15.193] < 11116> cli      | Remote time: 10.10.2022 12:57:15
+[10.10.2022 12:57:15.193] < 10948> cli      | Thread started. Thread id: 10948, parent id: 8180, role: (async) reconn. sender {10d8d77e-caab-4cf0-b9e5-6a89d0883bb6}
+[10.10.2022 12:57:15.193] < 10948> alg      | Sender stage: running send cycle. Resend list: [0].
+[10.10.2022 12:57:15.193] <  4892> cli      | Thread started. Thread id: 4892, parent id: 8180, role: (async) AUX channel sender
+[10.10.2022 12:57:15.209] <  8180> cli      | -------------------------------------------------------------------------------
+[10.10.2022 12:57:15.209] <  8180> cli      | DataTransfer.BackupText
+[10.10.2022 12:57:15.209] <  8180> cli      |   (EString) BackupType = {synth}
+[10.10.2022 12:57:15.209] <  8180> cli      |   (EBoolean) FullCopy = false
+[10.10.2022 12:57:15.209] <  8180> cli      |   (EBoolean) Option.Remote = true
+[10.10.2022 12:57:15.209] <  8180> cli      |   (EBlob) Text = {EBlob: 6013 bytes}
+[10.10.2022 12:57:15.209] <  8180> cli      |   (EString) VbkLink = veeamfs:0:6745a759-2205-4cd2-b172-8ec8f7e60ef8 (f0b12f0a-1178-834d-8432-08b4a90fe6df_dda8303a-acde-4631-b91b-05f7da4153aa)/summary.xml@C:\Backup\job teste\192.168.5.40\job teste - 192.168.5.40D2022-10-10T125654_51B6.vib
+[10.10.2022 12:57:15.209] <  8180> cli      | - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[10.10.2022 12:57:15.209] <  8180> cli      | Redirecting command [DataTransfer.BackupText] to server.
+[10.10.2022 12:57:15.240] <  8180> cli      | Method [DataTransfer.BackupText] completed. Elapsed time: [00:00:00.019]
+[10.10.2022 12:57:15.240] <  8180> cli      | -------------------------------------------------------------------------------
+[10.10.2022 12:59:19.334] <  8180> cli      | -------------------------------------------------------------------------------
+[10.10.2022 12:59:19.334] <  8180> cli      | DataTransfer.BackupText
+[10.10.2022 12:59:19.334] <  8180> cli      |   (EString) BackupType = {synth}
+[10.10.2022 12:59:19.334] <  8180> cli      |   (EBoolean) FullCopy = false
+[10.10.2022 12:59:19.334] <  8180> cli      |   (EBoolean) Option.Remote = true
+[10.10.2022 12:59:19.334] <  8180> cli      |   (EBlob) Text = {EBlob: 18230 bytes}
+[10.10.2022 12:59:19.334] <  8180> cli      |   (EString) VbkLink = veeamfs:0:6745a759-2205-4cd2-b172-8ec8f7e60ef8 (f0b12f0a-1178-834d-8432-08b4a90fe6df_dda8303a-acde-4631-b91b-05f7da4153aa)/summary.xml@C:\Backup\job teste\192.168.5.40\job teste - 192.168.5.40D2022-10-10T125654_51B6.vib
+[10.10.2022 12:59:19.334] <  8180> cli      | - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[10.10.2022 12:59:19.334] <  8180> cli      | Redirecting command [DataTransfer.BackupText] to server.
+[10.10.2022 12:59:19.365] <  8180> cli      | Method [DataTransfer.BackupText] completed. Elapsed time: [00:00:00.030]
+[10.10.2022 12:59:19.365] <  8180> cli      | -------------------------------------------------------------------------------
+[10.10.2022 12:59:19.381] <  8180> cli      | -------------------------------------------------------------------------------
+[10.10.2022 12:59:19.381] <  8180> cli      | DataTransfer.BackupText
+[10.10.2022 12:59:19.381] <  8180> cli      |   (EString) BackupType = {synth}
+[10.10.2022 12:59:19.381] <  8180> cli      |   (EBoolean) FullCopy = false
+[10.10.2022 12:59:19.381] <  8180> cli      |   (EBoolean) Option.Remote = true
+[10.10.2022 12:59:19.381] <  8180> cli      |   (EBlob) Text = {EBlob: 18230 bytes}
+[10.10.2022 12:59:19.381] <  8180> cli      |   (EString) VbkLink = veeamfs:0:6745a759-2205-4cd2-b172-8ec8f7e60ef8 (f0b12f0a-1178-834d-8432-08b4a90fe6df_dda8303a-acde-4631-b91b-05f7da4153aa)/summary.xml@C:\Backup\job teste\192.168.5.40\job teste - 192.168.5.40D2022-10-10T125654_51B6.vib
+[10.10.2022 12:59:19.381] <  8180> cli      | - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[10.10.2022 12:59:19.381] <  8180> cli      | Redirecting command [DataTransfer.BackupText] to server.
+[10.10.2022 12:59:19.396] <  8180> cli      | Method [DataTransfer.BackupText] completed. Elapsed time: [00:00:00.017]
+[10.10.2022 12:59:19.396] <  8180> cli      | -------------------------------------------------------------------------------
+[10.10.2022 12:59:19.396] <  8180> cli      | Next client command: [disconnect].
+[10.10.2022 12:59:19.396] <  8180> net      | AUX channel shutdown triggered.
+[10.10.2022 12:59:19.396] <  4892> net      | AUX data sender: sending shutdown marker.
+[10.10.2022 12:59:19.396] < 10948> alg      | Reconnectable stop request was sent on {10d8d77e-caab-4cf0-b9e5-6a89d0883bb6}.
+[10.10.2022 12:59:19.396] <  5864> alg      | Reconnectable protocol stop request was received on {3be24ee7-5efe-4f02-9bba-394b81a71686}.
+[10.10.2022 12:59:19.396] <  1172> alg      | Reconnectable stop confirmation was sent on {3be24ee7-5efe-4f02-9bba-394b81a71686}.
+[10.10.2022 12:59:19.396] <  1172> alg      | Reconnectable stop request was sent on {3be24ee7-5efe-4f02-9bba-394b81a71686}.
+[10.10.2022 12:59:19.396] <  5864> alg      | Reconnectable protocol stop request confirmation was received on {3be24ee7-5efe-4f02-9bba-394b81a71686}.
+[10.10.2022 12:59:19.396] <  5864> alg      | Receiver: finishing on {3be24ee7-5efe-4f02-9bba-394b81a71686}.
+[10.10.2022 12:59:19.396] <  5864> cli      | Thread finished. Role: '(async) reconn. receiver {3be24ee7-5efe-4f02-9bba-394b81a71686}'.
+[10.10.2022 12:59:19.396] <  1444> alg      | Reconnectable protocol stop request confirmation was received on {10d8d77e-caab-4cf0-b9e5-6a89d0883bb6}.
+[10.10.2022 12:59:19.396] < 11116> net      | AUX data receiver: shutdown marker received. Waiting for shutdown.
+[10.10.2022 12:59:19.396] < 10948> alg      | Reconnectable stop confirmation was sent on {10d8d77e-caab-4cf0-b9e5-6a89d0883bb6}.
+[10.10.2022 12:59:19.396] <  1172> alg      | Sender stage is finishing.
+[10.10.2022 12:59:19.396] <  1172> cli      | Thread finished. Role: '(async) reconn. sender {3be24ee7-5efe-4f02-9bba-394b81a71686}'.
+[10.10.2022 12:59:19.396] <  1444> alg      | Reconnectable protocol stop request was received on {10d8d77e-caab-4cf0-b9e5-6a89d0883bb6}.
+[10.10.2022 12:59:19.396] <  1444> alg      | Receiver: finishing on {10d8d77e-caab-4cf0-b9e5-6a89d0883bb6}.
+[10.10.2022 12:59:19.396] <  1444> cli      | Thread finished. Role: '(async) reconn. receiver {10d8d77e-caab-4cf0-b9e5-6a89d0883bb6}'.
+[10.10.2022 12:59:19.396] < 11116> alg      | Traffic history max size: [4].
+[10.10.2022 12:59:19.396] < 11116> cli      | Thread finished. Role: '(async) AUX channel receiver'.
+[10.10.2022 12:59:19.396] < 10948> alg      | Sender stage is finishing.
+[10.10.2022 12:59:19.396] < 10948> cli      | Thread finished. Role: '(async) reconn. sender {10d8d77e-caab-4cf0-b9e5-6a89d0883bb6}'.
+[10.10.2022 12:59:19.396] <  4892> alg      | Traffic history max size: [4].
+[10.10.2022 12:59:19.396] <  4892> cli      | Thread finished. Role: '(async) AUX channel sender'.
+[10.10.2022 12:59:19.396] <  8180> cli      | 
+[10.10.2022 12:59:19.396] <  8180> cli      | _______________________________________________________________________________
+[10.10.2022 12:59:19.396] <  8180> cli      | Waiting for the next command.
+[10.10.2022 12:59:19.396] <  7084> cli      | Finalization thread: Received external stop event.
+[10.10.2022 12:59:19.396] < 11224> net      | Terminating by stop event in CTcpThread::WaitOrStop.
+[10.10.2022 12:59:19.396] <  7084> cli      | Thread finished. Role: 'Event listener thread'.
+[10.10.2022 12:59:19.396] < 11224> net      | Stopping client sessions.
+[10.10.2022 12:59:19.396] < 10824> net      | Terminating by stop event in CTcpThread::WaitOrStop.
+[10.10.2022 12:59:19.396] < 10824> cli      | WARN|Input TCP stream was closed
+[10.10.2022 12:59:19.396] < 10824> net      | Connection closed...
+[10.10.2022 12:59:19.396] < 10824> cli      | Thread finished. Role: 'Client processor thread (127.0.0.1:55959)'.
+[10.10.2022 12:59:19.396] <  8180> net      | Terminating by stop event in CTcpThread::WaitOrStop.
+[10.10.2022 12:59:19.396] <  8180> cli      | WARN|Input TCP stream was closed
+[10.10.2022 12:59:19.396] <  8180> cli      | Removing stdin/stdout redirector: '2539995227184'.
+[10.10.2022 12:59:19.396] <  8180> net      | Connection closed...
+[10.10.2022 12:59:19.396] <  8180> cli      | Thread finished. Role: 'Client processor thread (192.168.5.61:55960)'.
+[10.10.2022 12:59:19.396] <  8360> net      | Terminating by stop event in CTcpThread::WaitOrStop.
+[10.10.2022 12:59:19.396] <  8360> cli      | WARN|Control session with manager was stopped. Raising reconnect stop event.
+[10.10.2022 12:59:19.396] <  8360> cli      | WARN|Input TCP stream was closed
+[10.10.2022 12:59:19.396] <  8360> net      | Connection closed...
+[10.10.2022 12:59:19.396] <  8360> cli      | Thread finished. Role: 'Client processor thread (192.168.5.61:55961)'.
+[10.10.2022 12:59:19.396] < 11224> net      | Veeam RPC server stopped.
+[10.10.2022 12:59:19.396] < 11224> cli      | Thread finished. Role: 'VRPC server thread'.
+[10.10.2022 12:59:19.396] < 10008> cli      |   Cleaning all resumable operations.
+[10.10.2022 12:59:19.396] < 10008> srv      |   Stopping srv. cleanup thread.
+[10.10.2022 12:59:19.396] < 11232> srv      |   Finalizing srv. sessions.
+[10.10.2022 12:59:19.396] < 11232> srv      | Srv. cleanup thread is finished.
+[10.10.2022 12:59:19.396] < 11232> cli      | Thread finished. Role: 'Session container'.
+[10.10.2022 12:59:19.396] < 10008> srv      |   Srv. cleanup thread was stopped.
+[10.10.2022 12:59:19.396] < 10008> dsk      |   Removing attached vmdk disks.
+[10.10.2022 12:59:19.396] < 10008> dsk      |   Disconnecting all VMs
+[10.10.2022 12:59:19.396] < 10008> dsk      |     Disconnecting all VMs...
+[10.10.2022 12:59:19.396] < 10008> dsk      |       Removing all vm connections
+[10.10.2022 12:59:19.396] < 10008> dsk      |     All VMs were successfully disconnected.
+[10.10.2022 12:59:19.396] < 10008> cli      | Client has been stopped.
+[10.10.2022 12:59:19.396] < 10008> cli      | Destroying connection pools.
+[10.10.2022 12:59:19.396] < 10008> cli      | Destroying connection pools. ok.
+[10.10.2022 12:59:19.396] < 10008> cli      | Resetting Veeam agent context
+[10.10.2022 12:59:19.396] < 10008> cli      |   Reset NAS backup context
+[10.10.2022 12:59:19.396] < 10008> cli      |     Disposing message channel context
+[10.10.2022 12:59:19.396] < 10008> cli      |   Reset NAS backup context ok.
+[10.10.2022 12:59:19.396] < 10008> cli      |   Reset storages context
+[10.10.2022 12:59:19.396] < 10008> stg      |     Storages cache is empty : skipping cleanup.
+[10.10.2022 12:59:19.396] < 10008> cli      |   Reset storages context ok.
+[10.10.2022 12:59:19.396] < 10008> cli      |   Reset singleton manager holder
+[10.10.2022 12:59:19.396] < 10388> vim      | Cleanup thread for the VI connections pool has finished.
+[10.10.2022 12:59:19.396] < 10388> cli      | Thread finished. Role: 'Clean up procedure'.
+[10.10.2022 12:59:19.396] < 10008> cli      |   Reset singleton manager holder ok.
+[10.10.2022 12:59:19.396] < 10008> cli      | Resetting Veeam agent context ok.
+[10.10.2022 12:59:19.396] < 10008> cli      | Resetting Veeam agent context
+[10.10.2022 12:59:19.396] < 10008> cli      |   Reset NAS backup context
+[10.10.2022 12:59:19.396] < 10008> cli      |   Reset NAS backup context ok.
+[10.10.2022 12:59:19.396] < 10008> cli      |   Reset storages context
+[10.10.2022 12:59:19.396] < 10008> cli      |   Reset storages context ok.
+[10.10.2022 12:59:19.396] < 10008> cli      |   Reset singleton manager holder
+[10.10.2022 12:59:19.396] < 10008> cli      |   Reset singleton manager holder ok.
+[10.10.2022 12:59:19.396] < 10008> cli      | Resetting Veeam agent context ok.
+[10.10.2022 12:59:19.412] < 10008> cli      | The agent session has finished successfully.
+[10.10.2022 15:05:52.556] < 11700> cli      | LOG: Parsing log parameters ...
+[10.10.2022 15:05:52.556] < 11700> cli      | LOG: Initializing log file ...
+[10.10.2022 15:05:52.556] < 11700> cli      | LOG: C:\ProgramData\Veeam\Backup\job_teste\192.168.5.40\Agent.192.168.5.40.Source.log
+[10.10.2022 15:05:52.556] < 11700>          | ====================================================================================
+[10.10.2022 15:05:52.556] < 11700>          | {
+[10.10.2022 15:05:52.556] < 11700>          |   Veeam Agent
+[10.10.2022 15:05:52.556] < 11700>          |   Path to the executable module: C:\Program Files (x86)\Veeam\Backup Transport\x64\VeeamAgent.exe
+[10.10.2022 15:05:52.556] < 11700>          |   Executable architecture: 64-bit
+[10.10.2022 15:05:52.556] < 11700>          |   Executable version: 11.0.1.1261
+[10.10.2022 15:05:52.556] < 11700>          |   Build edition: standard
+[10.10.2022 15:05:52.556] < 11700>          |   Comments: Private Fix KB20220302,CF-11.0a-CP4-20220302
+[10.10.2022 15:05:52.556] < 11700>          |   OS version: Microsoft Windows Server 2016 (1607, 64-bit) (10.0.14393)
+[10.10.2022 15:05:52.556] < 11700>          |   Processors num: 3
+[10.10.2022 15:05:52.556] < 11700>          |   Active processors mask: 7
+[10.10.2022 15:05:52.556] < 11700>          |   Processor 0: Common KVM processor
+[10.10.2022 15:05:52.556] < 11700>          |   Processor 1: Common KVM processor
+[10.10.2022 15:05:52.556] < 11700>          |   Processor 2: Common KVM processor
+[10.10.2022 15:05:52.556] < 11700>          |   Installed memory, MB: 16371
+[10.10.2022 15:05:52.556] < 11700>          |   PID: 11040
+[10.10.2022 15:05:52.556] < 11700>          | }
+[10.10.2022 15:05:52.556] < 11700>          | Loading options.
+[10.10.2022 15:05:52.556] < 11700>          | Adjusting system file cache limit (25 percent)
+[10.10.2022 15:05:52.556] < 11700>          |   Total physical memory installed: [16371 MB], available: [9595 MB].
+[10.10.2022 15:05:52.556] < 11700>          |   Maximum file cache size is already [4092 MB].
+[10.10.2022 15:05:52.556] < 11700>          | VDDK logging level: 1
+[10.10.2022 15:05:52.556] < 11700>          | Maximum pending blocks value: 10000
+[10.10.2022 15:05:52.556] < 11700>          | AgentId:{854e897b-5670-4f79-8fd7-aa9b5bba0653}
+[10.10.2022 15:05:52.556] < 11700>          | Add HostFS to the factories map.
+[10.10.2022 15:05:52.556] < 11700>          | Add cloud to the factories map.
+[10.10.2022 15:05:52.556] < 11700>          | Add nfc to the factories map.
+[10.10.2022 15:05:52.556] < 11700>          | Add TapeFs to the factories map.
+[10.10.2022 15:05:52.556] < 11700>          | Add ddboost to the factories map.
+[10.10.2022 15:05:52.556] < 11700>          | Add storeonce to the factories map.
+[10.10.2022 15:05:52.556] < 11700>          | Add fakestoreonce to the factories map.
+[10.10.2022 15:05:52.556] < 11700>          | Add nfs41 to the factories map.
+[10.10.2022 15:05:52.556] < 11700>          | Add nfs3 to the factories map.
+[10.10.2022 15:05:52.556] < 11700>          | Add nfs to the factories map.
+[10.10.2022 15:05:52.556] < 10836>          | Thread started. Thread id: 10836, parent id: 11700, role: Clean up procedure
+[10.10.2022 15:05:52.556] < 10836> vim      | Entering to the VI connections pool cleanup thread.
+[10.10.2022 15:05:52.556] < 11700> objagent | ObjAgentLib registry options are loaded
+[10.10.2022 15:05:52.556] < 11700> fs       | Created opened files limit context. Type: [Data], Limit: [10000]
+[10.10.2022 15:05:52.556] < 11700> fs       | Created opened files limit context. Type: [Meta], Limit: [10000]
+[10.10.2022 15:05:52.556] < 11700>          | Management connection keyset: 'ID: 9388de3d155cb9f8ac06239e03cf1437 (session), keys: 1, repair records: 0 (master keys:)'.
+[10.10.2022 15:05:52.556] <   620>          | Thread started. Thread id: 620, parent id: 11700, role: Session container
+[10.10.2022 15:05:52.556] <   620> srv      | Srv. cleanup thread is started.
+[10.10.2022 15:05:52.556] < 11700> cli      | Client session has been started.
+[10.10.2022 15:05:52.556] < 11700> net      |   vRPC server socket management: Allow local address reuse [false]; Retry bind socket [false]; Wait client shutdown on socket close [false]
+[10.10.2022 15:05:52.556] <  9816> cli      | Thread started. Thread id: 9816, parent id: 11700, role: VRPC server thread
+[10.10.2022 15:05:52.556] <  9816> net      | Veeam RPC server started.
+[10.10.2022 15:05:52.556] <  9816> cli      | SIO_LOOPBACK_FAST_PATH is disabled in configuration
+[10.10.2022 15:05:52.556] <  9816> net      | Selected vRPC port: '2501'.
+[10.10.2022 15:05:52.556] <  9816> net      | Listening vRPC port '2501'.
+[10.10.2022 15:05:52.556] < 11700> cli      |   Opening event: [VeeamEvent{fb89fe9c-f77e-455f-a70d-70b5ebba6669}]
+[10.10.2022 15:05:52.556] < 11700> cli      |   Opening shared memory: [VeeamMem{fb89fe9c-f77e-455f-a70d-70b5ebba6669}]
+[10.10.2022 15:05:52.556] <  9816> net      |   Accepted incoming vRPC connection from '127.0.0.1:60024'.
+[10.10.2022 15:05:52.556] < 10196> cli      | Thread started. Thread id: 10196, parent id: 9816, role: Client processor thread (127.0.0.1:60024)
+[10.10.2022 15:05:52.556] < 10196> net      | Client connected...
+[10.10.2022 15:05:52.556] < 10196> cli      | Creating session ( redirect output session: 'false')
+[10.10.2022 15:05:52.556] < 10196> cli      | CAgentFlowDispatcher: connection will be encrypted. Management keyset: 'ID: 9388de3d155cb9f8ac06239e03cf1437 (session), keys: 1, repair records: 0 (master keys:)'.
+[10.10.2022 15:05:52.556] < 10196> cli      | Client works in standalone mode.
+[10.10.2022 15:05:52.556] <  9816> net      |   Accepted incoming vRPC connection from '192.168.5.61:60025'.
+[10.10.2022 15:05:52.556] <  4768> cli      | Thread started. Thread id: 4768, parent id: 9816, role: Client processor thread (192.168.5.61:60025)
+[10.10.2022 15:05:52.556] <  4768> net      | Client connected...
+[10.10.2022 15:05:52.556] <  4768> cli      | Creating session ( redirect output session: 'true')
+[10.10.2022 15:05:52.556] <  4768> cli      | CAgentFlowDispatcher: connection will be encrypted. Management keyset: 'ID: 9388de3d155cb9f8ac06239e03cf1437 (session), keys: 1, repair records: 0 (master keys:)'.
+[10.10.2022 15:05:52.556] <  4768> cli      | Registering stdin/stdout redirector: '1804530126768'.
+[10.10.2022 15:05:52.556] <  4768> cli      | Client works in standalone mode.
+[10.10.2022 15:05:52.571] <  9816> net      |   Accepted incoming vRPC connection from '192.168.5.61:60026'.
+[10.10.2022 15:05:52.571] <  8860> cli      | Thread started. Thread id: 8860, parent id: 9816, role: Client processor thread (192.168.5.61:60026)
+[10.10.2022 15:05:52.571] <  8860> net      | Client connected...
+[10.10.2022 15:05:52.571] <  8860> cli      | Creating session ( redirect output session: 'false')
+[10.10.2022 15:05:52.571] <  8860> cli      | CAgentFlowDispatcher: connection will be encrypted. Management keyset: 'ID: 9388de3d155cb9f8ac06239e03cf1437 (session), keys: 1, repair records: 0 (master keys:)'.
+[10.10.2022 15:05:52.571] <  8860> cli      | Client works in standalone mode.
+[10.10.2022 15:05:52.571] <  8860> cli      | -------------------------------------------------------------------------------
+[10.10.2022 15:05:52.571] <  8860> cli      | Generic.SetNetworkReconnectOptions
+[10.10.2022 15:05:52.571] <  8860> cli      |   (EUInt64) AttemptIntervalMs = 15000
+[10.10.2022 15:05:52.571] <  8860> cli      |   (EBoolean) Enabled = true
+[10.10.2022 15:05:52.571] <  8860> cli      |   (EUInt64) OverallTimeoutMs = 1800000
+[10.10.2022 15:05:52.571] <  8860> cli      | - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[10.10.2022 15:05:52.571] <  8860> cli      | New client-server reconnection options were set and will be applied to future connections.
+[10.10.2022 15:05:52.571] <  8860> cli      | Reconnects: enabled.
+[10.10.2022 15:05:52.571] <  8860> cli      | Overall reconnect timeout [ms]: 1800000.
+[10.10.2022 15:05:52.571] <  8860> cli      | Single attempt interval [ms]: 15000.
+[10.10.2022 15:05:52.571] <  8860> cli      | Method [Generic.SetNetworkReconnectOptions] completed. Elapsed time: [00:00:00.000]
+[10.10.2022 15:05:52.571] <  8860> cli      | -------------------------------------------------------------------------------
+[10.10.2022 15:05:52.571] <  8860> cli      | -------------------------------------------------------------------------------
+[10.10.2022 15:05:52.571] <  8860> cli      | Generic.EnableAgentReconnectPolicy
+[10.10.2022 15:05:52.571] <  8860> cli      |   (EBoolean) IsRemoteAgent = false
+[10.10.2022 15:05:52.571] <  8860> cli      | - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[10.10.2022 15:05:52.571] <  8860> cli      | Enabling agent reconnection policy. Mode: [local].
+[10.10.2022 15:05:52.571] <  8860> cli      | This client session is a control session. Client-server reconnection will be disabled permanently if this session fails.
+[10.10.2022 15:05:52.571] <  8860> cli      | Method [Generic.EnableAgentReconnectPolicy] completed. Elapsed time: [00:00:00.000]
+[10.10.2022 15:05:52.571] <  8860> cli      | -------------------------------------------------------------------------------
+[10.10.2022 15:05:52.587] <  4768> cli      | Next client command: [connectLocal].
+[10.10.2022 15:05:52.587] <  4768> cli      |       :>  192.168.5.61:2500
+[10.10.2022 15:05:52.587] <  4768> cli      |       :>  srv-qa-veeam01.lab.local:2500
+[10.10.2022 15:05:52.587] <  4768> cli      |       :>  .
+[10.10.2022 15:05:52.587] <  4768> cli      |       :>  0
+[10.10.2022 15:05:52.587] <  4768> cli      |       :>  {39350458-7e47-4e1e-839c-7fdec5c732e1}
+[10.10.2022 15:05:52.587] <  4768> cli      |       :>  {db84db10-d2e6-4d72-b9e7-8e4bb013fc38}
+[10.10.2022 15:05:52.587] <  4768> cli      |       :>  2
+[10.10.2022 15:05:52.587] <  4768> cli      |       :>  00000000-0000-0000-0000-000000000000
+[10.10.2022 15:05:52.587] <  4768> cli      | Connecting to the server agent with the following parameters: [192.168.5.61:2500; srv-qa-veeam01.lab.local:2500].
+[10.10.2022 15:05:52.587] <  4768> cli      |   [Hook] Creating redirection hooks rules instance.
+[10.10.2022 15:05:52.587] <  4768> cli      |   All client-server connections will be established using following reconnect options:
+[10.10.2022 15:05:52.587] <  4768> cli      |     Reconnects: enabled.
+[10.10.2022 15:05:52.587] <  4768> cli      |     Overall reconnect timeout [ms]: 1800000.
+[10.10.2022 15:05:52.587] <  4768> cli      |     Single attempt interval [ms]: 15000.
+[10.10.2022 15:05:52.587] <  4768> cli      |   Trying to connect to the endpoint [192.168.5.61:2500]
+[10.10.2022 15:05:52.587] <  4768> cli      |   Connection status: system:0 ( The operation completed successfully ).
+[10.10.2022 15:05:52.587] <  4768> cli      |   Attempting to establish shared memory connection.
+[10.10.2022 15:05:52.587] <  4768> cli      |     Opening shared memory device with name: [SharedMemDev_{5d298080-3b38-4580-b074-e990d379ee94}].
+[10.10.2022 15:05:52.587] <  4768> cli      |       Opening process handle for PID: [6600].
+[10.10.2022 15:05:52.587] <  4768> cli      |       Opening ring buffer: [SharedMemDev_{5d298080-3b38-4580-b074-e990d379ee94}_ForwardBuf_SharedMem].
+[10.10.2022 15:05:52.587] <  4768> cli      |       Opening ring buffer: [SharedMemDev_{5d298080-3b38-4580-b074-e990d379ee94}_BackwardBuf_SharedMem].
+[10.10.2022 15:05:52.587] <  4768> cli      |     Opening shared memory device with name: [SharedMemDev_{5d298080-3b38-4580-b074-e990d379ee94}]. ok.
+[10.10.2022 15:05:52.587] <  4768> cli      |   Shared memory connection has been successfully established. Buffer size: [524288]
+[10.10.2022 15:05:52.587] <  4768> cli      |   Login ticket: {39350458-7e47-4e1e-839c-7fdec5c732e1}
+[10.10.2022 15:05:52.587] <  4768> cli      |   Server features: [1], client features: [1], shared features: [1]
+[10.10.2022 15:05:52.587] <  4768> cli      |   Negotiating transport pool id.
+[10.10.2022 15:05:52.587] <  4768> cli      |   Additional transport connections will be assigned to pool '1'.
+[10.10.2022 15:05:52.587] <  4768> net      |   Initiating AUX data channel. Client id: '{f0de5427-815f-48f2-879b-ae32ccf64301}'.
+[10.10.2022 15:05:52.587] <  4768> cli      |   Trying to connect to the endpoint [192.168.5.61:2500]
+[10.10.2022 15:05:52.587] <  4768> cli      |   Connection status: system:0 ( The operation completed successfully ).
+[10.10.2022 15:05:52.587] <  4768> net      |   Sending reconnect options: [enabled: timeout 1800000, interval 15000].
+[10.10.2022 15:05:52.587] <  4768> cli      |   Trying to connect to the endpoint [192.168.5.61:2500]
+[10.10.2022 15:05:52.587] <  9676> cli      | Thread started. Thread id: 9676, parent id: 4768, role: (async) reconn. sender {db939afb-005d-47f4-bb6b-536c11e57a6e}
+[10.10.2022 15:05:52.587] <  9676> alg      | Sender stage: running send cycle. Resend list: [0].
+[10.10.2022 15:05:52.587] <  4768> cli      |   Connection status: system:0 ( The operation completed successfully ).
+[10.10.2022 15:05:52.587] < 11172> cli      | Thread started. Thread id: 11172, parent id: 4768, role: (async) reconn. receiver {db939afb-005d-47f4-bb6b-536c11e57a6e}
+[10.10.2022 15:05:52.587] < 11172> alg      | Receiver stage: running recv cycle.
+[10.10.2022 15:05:52.587] < 10380> cli      | Thread started. Thread id: 10380, parent id: 4768, role: (async) AUX channel receiver
+[10.10.2022 15:05:52.587] <  4768> net      |   Sending reconnect options: [enabled: timeout 1800000, interval 15000].
+[10.10.2022 15:05:52.587] <  4768> cli      |   All connections were established, sending acknowledge.
+[10.10.2022 15:05:52.587] <  4768> cli      | Connection established ( server IP: '192.168.5.61:2500').
+[10.10.2022 15:05:52.587] <  4768> cli      | 
+[10.10.2022 15:05:52.587] <  4768> cli      | _______________________________________________________________________________
+[10.10.2022 15:05:52.587] <  4768> cli      | Waiting for the next command.
+[10.10.2022 15:05:52.587] <  9760> cli      | Thread started. Thread id: 9760, parent id: 4768, role: (async) AUX channel sender
+[10.10.2022 15:05:52.587] < 10380> cli      | Remote time: 10.10.2022 15:05:52
+[10.10.2022 15:05:52.587] <  6004> cli      | Thread started. Thread id: 6004, parent id: 4768, role: (async) reconn. receiver {4d304ad4-4bcd-4da2-90e7-19e313ee09a8}
+[10.10.2022 15:05:52.587] <  6004> alg      | Receiver stage: running recv cycle.
+[10.10.2022 15:05:52.587] <  8960> cli      | Thread started. Thread id: 8960, parent id: 4768, role: (async) reconn. sender {4d304ad4-4bcd-4da2-90e7-19e313ee09a8}
+[10.10.2022 15:05:52.587] <  8960> alg      | Sender stage: running send cycle. Resend list: [0].
+[10.10.2022 15:05:52.649] <  4768> cli      | -------------------------------------------------------------------------------
+[10.10.2022 15:05:52.649] <  4768> cli      | DataTransfer.BackupText
+[10.10.2022 15:05:52.649] <  4768> cli      |   (EString) BackupType = {synth}
+[10.10.2022 15:05:52.649] <  4768> cli      |   (EBoolean) FullCopy = false
+[10.10.2022 15:05:52.649] <  4768> cli      |   (EBoolean) Option.Remote = true
+[10.10.2022 15:05:52.649] <  4768> cli      |   (EBlob) Text = {EBlob: 6013 bytes}
+[10.10.2022 15:05:52.649] <  4768> cli      |   (EString) VbkLink = veeamfs:0:6745a759-2205-4cd2-b172-8ec8f7e60ef8 (f0b12f0a-1178-834d-8432-08b4a90fe6df_dda8303a-acde-4631-b91b-05f7da4153aa)/summary.xml@C:\Backup\job teste\192.168.5.40\job teste - 192.168.5.40D2022-10-10T150538_9A8F.vib
+[10.10.2022 15:05:52.649] <  4768> cli      | - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[10.10.2022 15:05:52.649] <  4768> cli      | Redirecting command [DataTransfer.BackupText] to server.
+[10.10.2022 15:05:52.681] <  4768> cli      | Method [DataTransfer.BackupText] completed. Elapsed time: [00:00:00.029]
+[10.10.2022 15:05:52.681] <  4768> cli      | -------------------------------------------------------------------------------
+[10.10.2022 15:07:56.916] <  4768> cli      | -------------------------------------------------------------------------------
+[10.10.2022 15:07:56.916] <  4768> cli      | DataTransfer.BackupText
+[10.10.2022 15:07:56.916] <  4768> cli      |   (EString) BackupType = {synth}
+[10.10.2022 15:07:56.916] <  4768> cli      |   (EBoolean) FullCopy = false
+[10.10.2022 15:07:56.916] <  4768> cli      |   (EBoolean) Option.Remote = true
+[10.10.2022 15:07:56.916] <  4768> cli      |   (EBlob) Text = {EBlob: 18230 bytes}
+[10.10.2022 15:07:56.916] <  4768> cli      |   (EString) VbkLink = veeamfs:0:6745a759-2205-4cd2-b172-8ec8f7e60ef8 (f0b12f0a-1178-834d-8432-08b4a90fe6df_dda8303a-acde-4631-b91b-05f7da4153aa)/summary.xml@C:\Backup\job teste\192.168.5.40\job teste - 192.168.5.40D2022-10-10T150538_9A8F.vib
+[10.10.2022 15:07:56.916] <  4768> cli      | - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[10.10.2022 15:07:56.916] <  4768> cli      | Redirecting command [DataTransfer.BackupText] to server.
+[10.10.2022 15:07:56.947] <  4768> cli      | Method [DataTransfer.BackupText] completed. Elapsed time: [00:00:00.026]
+[10.10.2022 15:07:56.947] <  4768> cli      | -------------------------------------------------------------------------------
+[10.10.2022 15:07:56.963] <  4768> cli      | -------------------------------------------------------------------------------
+[10.10.2022 15:07:56.963] <  4768> cli      | DataTransfer.BackupText
+[10.10.2022 15:07:56.963] <  4768> cli      |   (EString) BackupType = {synth}
+[10.10.2022 15:07:56.963] <  4768> cli      |   (EBoolean) FullCopy = false
+[10.10.2022 15:07:56.963] <  4768> cli      |   (EBoolean) Option.Remote = true
+[10.10.2022 15:07:56.963] <  4768> cli      |   (EBlob) Text = {EBlob: 18230 bytes}
+[10.10.2022 15:07:56.963] <  4768> cli      |   (EString) VbkLink = veeamfs:0:6745a759-2205-4cd2-b172-8ec8f7e60ef8 (f0b12f0a-1178-834d-8432-08b4a90fe6df_dda8303a-acde-4631-b91b-05f7da4153aa)/summary.xml@C:\Backup\job teste\192.168.5.40\job teste - 192.168.5.40D2022-10-10T150538_9A8F.vib
+[10.10.2022 15:07:56.963] <  4768> cli      | - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[10.10.2022 15:07:56.963] <  4768> cli      | Redirecting command [DataTransfer.BackupText] to server.
+[10.10.2022 15:07:56.978] <  4768> cli      | Method [DataTransfer.BackupText] completed. Elapsed time: [00:00:00.018]
+[10.10.2022 15:07:56.978] <  4768> cli      | -------------------------------------------------------------------------------
+[10.10.2022 15:07:56.978] <  4768> cli      | Next client command: [disconnect].
+[10.10.2022 15:07:56.978] <  4768> net      | AUX channel shutdown triggered.
+[10.10.2022 15:07:56.978] <  9760> net      | AUX data sender: sending shutdown marker.
+[10.10.2022 15:07:56.978] < 11172> alg      | Reconnectable protocol stop request was received on {db939afb-005d-47f4-bb6b-536c11e57a6e}.
+[10.10.2022 15:07:56.978] < 10380> net      | AUX data receiver: shutdown marker received. Waiting for shutdown.
+[10.10.2022 15:07:56.978] <  6004> alg      | Reconnectable protocol stop request confirmation was received on {4d304ad4-4bcd-4da2-90e7-19e313ee09a8}.
+[10.10.2022 15:07:56.978] <  6004> alg      | Reconnectable protocol stop request was received on {4d304ad4-4bcd-4da2-90e7-19e313ee09a8}.
+[10.10.2022 15:07:56.978] <  6004> alg      | Receiver: finishing on {4d304ad4-4bcd-4da2-90e7-19e313ee09a8}.
+[10.10.2022 15:07:56.978] <  6004> cli      | Thread finished. Role: '(async) reconn. receiver {4d304ad4-4bcd-4da2-90e7-19e313ee09a8}'.
+[10.10.2022 15:07:56.978] <  9676> alg      | Reconnectable stop confirmation was sent on {db939afb-005d-47f4-bb6b-536c11e57a6e}.
+[10.10.2022 15:07:56.978] <  8960> alg      | Reconnectable stop request was sent on {4d304ad4-4bcd-4da2-90e7-19e313ee09a8}.
+[10.10.2022 15:07:56.978] <  9676> alg      | Reconnectable stop request was sent on {db939afb-005d-47f4-bb6b-536c11e57a6e}.
+[10.10.2022 15:07:56.978] < 11172> alg      | Reconnectable protocol stop request confirmation was received on {db939afb-005d-47f4-bb6b-536c11e57a6e}.
+[10.10.2022 15:07:56.978] < 11172> alg      | Receiver: finishing on {db939afb-005d-47f4-bb6b-536c11e57a6e}.
+[10.10.2022 15:07:56.978] < 11172> cli      | Thread finished. Role: '(async) reconn. receiver {db939afb-005d-47f4-bb6b-536c11e57a6e}'.
+[10.10.2022 15:07:56.978] <  8960> alg      | Reconnectable stop confirmation was sent on {4d304ad4-4bcd-4da2-90e7-19e313ee09a8}.
+[10.10.2022 15:07:56.978] <  8960> alg      | Sender stage is finishing.
+[10.10.2022 15:07:56.978] <  8960> cli      | Thread finished. Role: '(async) reconn. sender {4d304ad4-4bcd-4da2-90e7-19e313ee09a8}'.
+[10.10.2022 15:07:56.978] <  9760> alg      | Traffic history max size: [4].
+[10.10.2022 15:07:56.978] <  9760> cli      | Thread finished. Role: '(async) AUX channel sender'.
+[10.10.2022 15:07:56.978] <  9676> alg      | Sender stage is finishing.
+[10.10.2022 15:07:56.978] <  9676> cli      | Thread finished. Role: '(async) reconn. sender {db939afb-005d-47f4-bb6b-536c11e57a6e}'.
+[10.10.2022 15:07:56.978] < 10380> alg      | Traffic history max size: [4].
+[10.10.2022 15:07:56.978] < 10380> cli      | Thread finished. Role: '(async) AUX channel receiver'.
+[10.10.2022 15:07:56.978] <  4768> cli      | 
+[10.10.2022 15:07:56.978] <  4768> cli      | _______________________________________________________________________________
+[10.10.2022 15:07:56.978] <  4768> cli      | Waiting for the next command.
+[10.10.2022 15:07:56.978] <  8024> cli      | Finalization thread: Received external stop event.
+[10.10.2022 15:07:56.978] <  8024> cli      | Thread finished. Role: 'Event listener thread'.
+[10.10.2022 15:07:56.978] <  9816> net      | Terminating by stop event in CTcpThread::WaitOrStop.
+[10.10.2022 15:07:56.978] <  9816> net      | Stopping client sessions.
+[10.10.2022 15:07:56.978] < 10196> net      | Terminating by stop event in CTcpThread::WaitOrStop.
+[10.10.2022 15:07:56.978] < 10196> cli      | WARN|Input TCP stream was closed
+[10.10.2022 15:07:56.978] < 10196> net      | Connection closed...
+[10.10.2022 15:07:56.978] < 10196> cli      | Thread finished. Role: 'Client processor thread (127.0.0.1:60024)'.
+[10.10.2022 15:07:56.978] <  4768> net      | Terminating by stop event in CTcpThread::WaitOrStop.
+[10.10.2022 15:07:56.978] <  4768> cli      | WARN|Input TCP stream was closed
+[10.10.2022 15:07:56.978] <  4768> cli      | Removing stdin/stdout redirector: '1804530126768'.
+[10.10.2022 15:07:56.978] <  4768> net      | Connection closed...
+[10.10.2022 15:07:56.978] <  4768> cli      | Thread finished. Role: 'Client processor thread (192.168.5.61:60025)'.
+[10.10.2022 15:07:56.978] <  8860> net      | Terminating by stop event in CTcpThread::WaitOrStop.
+[10.10.2022 15:07:56.978] <  8860> cli      | WARN|Control session with manager was stopped. Raising reconnect stop event.
+[10.10.2022 15:07:56.978] <  8860> cli      | WARN|Input TCP stream was closed
+[10.10.2022 15:07:56.978] <  8860> net      | Connection closed...
+[10.10.2022 15:07:56.978] <  8860> cli      | Thread finished. Role: 'Client processor thread (192.168.5.61:60026)'.
+[10.10.2022 15:07:56.978] <  9816> net      | Veeam RPC server stopped.
+[10.10.2022 15:07:56.978] <  9816> cli      | Thread finished. Role: 'VRPC server thread'.
+[10.10.2022 15:07:56.978] < 11700> cli      |   Cleaning all resumable operations.
+[10.10.2022 15:07:56.978] < 11700> srv      |   Stopping srv. cleanup thread.
+[10.10.2022 15:07:56.978] <   620> srv      |   Finalizing srv. sessions.
+[10.10.2022 15:07:56.978] <   620> srv      | Srv. cleanup thread is finished.
+[10.10.2022 15:07:56.978] <   620> cli      | Thread finished. Role: 'Session container'.
+[10.10.2022 15:07:56.978] < 11700> srv      |   Srv. cleanup thread was stopped.
+[10.10.2022 15:07:56.978] < 11700> dsk      |   Removing attached vmdk disks.
+[10.10.2022 15:07:56.978] < 11700> dsk      |   Disconnecting all VMs
+[10.10.2022 15:07:56.978] < 11700> dsk      |     Disconnecting all VMs...
+[10.10.2022 15:07:56.978] < 11700> dsk      |       Removing all vm connections
+[10.10.2022 15:07:56.978] < 11700> dsk      |     All VMs were successfully disconnected.
+[10.10.2022 15:07:56.978] < 11700> cli      | Client has been stopped.
+[10.10.2022 15:07:56.978] < 11700> cli      | Destroying connection pools.
+[10.10.2022 15:07:56.978] < 11700> cli      | Destroying connection pools. ok.
+[10.10.2022 15:07:56.978] < 11700> cli      | Resetting Veeam agent context
+[10.10.2022 15:07:56.978] < 11700> cli      |   Reset NAS backup context
+[10.10.2022 15:07:56.978] < 11700> cli      |     Disposing message channel context
+[10.10.2022 15:07:56.978] < 11700> cli      |   Reset NAS backup context ok.
+[10.10.2022 15:07:56.978] < 11700> cli      |   Reset storages context
+[10.10.2022 15:07:56.978] < 11700> stg      |     Storages cache is empty : skipping cleanup.
+[10.10.2022 15:07:56.978] < 11700> cli      |   Reset storages context ok.
+[10.10.2022 15:07:56.978] < 11700> cli      |   Reset singleton manager holder
+[10.10.2022 15:07:56.978] < 10836> vim      | Cleanup thread for the VI connections pool has finished.
+[10.10.2022 15:07:56.978] < 10836> cli      | Thread finished. Role: 'Clean up procedure'.
+[10.10.2022 15:07:56.978] < 11700> cli      |   Reset singleton manager holder ok.
+[10.10.2022 15:07:56.978] < 11700> cli      | Resetting Veeam agent context ok.
+[10.10.2022 15:07:56.978] < 11700> cli      | Resetting Veeam agent context
+[10.10.2022 15:07:56.978] < 11700> cli      |   Reset NAS backup context
+[10.10.2022 15:07:56.978] < 11700> cli      |   Reset NAS backup context ok.
+[10.10.2022 15:07:56.978] < 11700> cli      |   Reset storages context
+[10.10.2022 15:07:56.978] < 11700> cli      |   Reset storages context ok.
+[10.10.2022 15:07:56.978] < 11700> cli      |   Reset singleton manager holder
+[10.10.2022 15:07:56.978] < 11700> cli      |   Reset singleton manager holder ok.
+[10.10.2022 15:07:56.978] < 11700> cli      | Resetting Veeam agent context ok.
+[10.10.2022 15:07:56.994] < 11700> cli      | The agent session has finished successfully.
+[10.10.2022 15:11:45.741] < 11724> cli      | LOG: Parsing log parameters ...
+[10.10.2022 15:11:45.741] < 11724> cli      | LOG: Initializing log file ...
+[10.10.2022 15:11:45.741] < 11724> cli      | LOG: C:\ProgramData\Veeam\Backup\job_teste\192.168.5.40\Agent.192.168.5.40.Source.log
+[10.10.2022 15:11:45.741] < 11724>          | ====================================================================================
+[10.10.2022 15:11:45.741] < 11724>          | {
+[10.10.2022 15:11:45.741] < 11724>          |   Veeam Agent
+[10.10.2022 15:11:45.741] < 11724>          |   Path to the executable module: C:\Program Files (x86)\Veeam\Backup Transport\x64\VeeamAgent.exe
+[10.10.2022 15:11:45.741] < 11724>          |   Executable architecture: 64-bit
+[10.10.2022 15:11:45.741] < 11724>          |   Executable version: 11.0.1.1261
+[10.10.2022 15:11:45.741] < 11724>          |   Build edition: standard
+[10.10.2022 15:11:45.741] < 11724>          |   Comments: Private Fix KB20220302,CF-11.0a-CP4-20220302
+[10.10.2022 15:11:45.741] < 11724>          |   OS version: Microsoft Windows Server 2016 (1607, 64-bit) (10.0.14393)
+[10.10.2022 15:11:45.741] < 11724>          |   Processors num: 3
+[10.10.2022 15:11:45.741] < 11724>          |   Active processors mask: 7
+[10.10.2022 15:11:45.741] < 11724>          |   Processor 0: Common KVM processor
+[10.10.2022 15:11:45.741] < 11724>          |   Processor 1: Common KVM processor
+[10.10.2022 15:11:45.741] < 11724>          |   Processor 2: Common KVM processor
+[10.10.2022 15:11:45.741] < 11724>          |   Installed memory, MB: 16371
+[10.10.2022 15:11:45.741] < 11724>          |   PID: 9124
+[10.10.2022 15:11:45.741] < 11724>          | }
+[10.10.2022 15:11:45.741] < 11724>          | Loading options.
+[10.10.2022 15:11:45.741] < 11724>          | Adjusting system file cache limit (25 percent)
+[10.10.2022 15:11:45.741] < 11724>          |   Total physical memory installed: [16371 MB], available: [9599 MB].
+[10.10.2022 15:11:45.741] < 11724>          |   Maximum file cache size is already [4092 MB].
+[10.10.2022 15:11:45.741] < 11724>          | VDDK logging level: 1
+[10.10.2022 15:11:45.741] < 11724>          | Maximum pending blocks value: 10000
+[10.10.2022 15:11:45.741] < 11724>          | AgentId:{58b53568-ee5e-47e9-97bf-507056a84ba8}
+[10.10.2022 15:11:45.741] < 11724>          | Add HostFS to the factories map.
+[10.10.2022 15:11:45.741] < 11724>          | Add cloud to the factories map.
+[10.10.2022 15:11:45.741] < 11724>          | Add nfc to the factories map.
+[10.10.2022 15:11:45.741] < 11724>          | Add TapeFs to the factories map.
+[10.10.2022 15:11:45.741] < 11724>          | Add ddboost to the factories map.
+[10.10.2022 15:11:45.741] < 11724>          | Add storeonce to the factories map.
+[10.10.2022 15:11:45.741] < 11724>          | Add fakestoreonce to the factories map.
+[10.10.2022 15:11:45.741] < 11724>          | Add nfs41 to the factories map.
+[10.10.2022 15:11:45.741] < 11724>          | Add nfs3 to the factories map.
+[10.10.2022 15:11:45.741] < 11724>          | Add nfs to the factories map.
+[10.10.2022 15:11:45.741] <  4228>          | Thread started. Thread id: 4228, parent id: 11724, role: Clean up procedure
+[10.10.2022 15:11:45.741] <  4228> vim      | Entering to the VI connections pool cleanup thread.
+[10.10.2022 15:11:45.741] < 11724> objagent | ObjAgentLib registry options are loaded
+[10.10.2022 15:11:45.741] < 11724> fs       | Created opened files limit context. Type: [Data], Limit: [10000]
+[10.10.2022 15:11:45.741] < 11724> fs       | Created opened files limit context. Type: [Meta], Limit: [10000]
+[10.10.2022 15:11:45.741] < 11724>          | Management connection keyset: 'ID: cf1f80f605c1c0d838a087ffe3cca944 (session), keys: 1, repair records: 0 (master keys:)'.
+[10.10.2022 15:11:45.741] <  7732>          | Thread started. Thread id: 7732, parent id: 11724, role: Session container
+[10.10.2022 15:11:45.741] <  7732> srv      | Srv. cleanup thread is started.
+[10.10.2022 15:11:45.741] < 11724> cli      | Client session has been started.
+[10.10.2022 15:11:45.741] < 11724> net      |   vRPC server socket management: Allow local address reuse [false]; Retry bind socket [false]; Wait client shutdown on socket close [false]
+[10.10.2022 15:11:45.741] < 12072> cli      | Thread started. Thread id: 12072, parent id: 11724, role: VRPC server thread
+[10.10.2022 15:11:45.741] < 12072> net      | Veeam RPC server started.
+[10.10.2022 15:11:45.741] < 12072> cli      | SIO_LOOPBACK_FAST_PATH is disabled in configuration
+[10.10.2022 15:11:45.741] < 12072> net      | Selected vRPC port: '2501'.
+[10.10.2022 15:11:45.741] < 12072> net      | Listening vRPC port '2501'.
+[10.10.2022 15:11:45.741] < 11724> cli      |   Opening event: [VeeamEvent{5a82f1f5-f9ae-4dae-bda1-2670c600991d}]
+[10.10.2022 15:11:45.741] < 11724> cli      |   Opening shared memory: [VeeamMem{5a82f1f5-f9ae-4dae-bda1-2670c600991d}]
+[10.10.2022 15:11:45.741] < 12072> net      |   Accepted incoming vRPC connection from '127.0.0.1:60308'.
+[10.10.2022 15:11:45.741] < 11628> cli      | Thread started. Thread id: 11628, parent id: 12072, role: Client processor thread (127.0.0.1:60308)
+[10.10.2022 15:11:45.741] < 11628> net      | Client connected...
+[10.10.2022 15:11:45.741] < 11628> cli      | Creating session ( redirect output session: 'false')
+[10.10.2022 15:11:45.741] < 11628> cli      | CAgentFlowDispatcher: connection will be encrypted. Management keyset: 'ID: cf1f80f605c1c0d838a087ffe3cca944 (session), keys: 1, repair records: 0 (master keys:)'.
+[10.10.2022 15:11:45.741] < 11628> cli      | Client works in standalone mode.
+[10.10.2022 15:11:45.741] < 12072> net      |   Accepted incoming vRPC connection from '192.168.5.61:60309'.
+[10.10.2022 15:11:45.741] < 10496> cli      | Thread started. Thread id: 10496, parent id: 12072, role: Client processor thread (192.168.5.61:60309)
+[10.10.2022 15:11:45.741] < 10496> net      | Client connected...
+[10.10.2022 15:11:45.741] < 10496> cli      | Creating session ( redirect output session: 'true')
+[10.10.2022 15:11:45.741] < 10496> cli      | CAgentFlowDispatcher: connection will be encrypted. Management keyset: 'ID: cf1f80f605c1c0d838a087ffe3cca944 (session), keys: 1, repair records: 0 (master keys:)'.
+[10.10.2022 15:11:45.741] < 10496> cli      | Registering stdin/stdout redirector: '2539584077248'.
+[10.10.2022 15:11:45.741] < 10496> cli      | Client works in standalone mode.
+[10.10.2022 15:11:45.756] < 12072> net      |   Accepted incoming vRPC connection from '192.168.5.61:60310'.
+[10.10.2022 15:11:45.756] <   564> cli      | Thread started. Thread id: 564, parent id: 12072, role: Client processor thread (192.168.5.61:60310)
+[10.10.2022 15:11:45.756] <   564> net      | Client connected...
+[10.10.2022 15:11:45.756] <   564> cli      | Creating session ( redirect output session: 'false')
+[10.10.2022 15:11:45.756] <   564> cli      | CAgentFlowDispatcher: connection will be encrypted. Management keyset: 'ID: cf1f80f605c1c0d838a087ffe3cca944 (session), keys: 1, repair records: 0 (master keys:)'.
+[10.10.2022 15:11:45.756] <   564> cli      | Client works in standalone mode.
+[10.10.2022 15:11:45.756] <   564> cli      | -------------------------------------------------------------------------------
+[10.10.2022 15:11:45.756] <   564> cli      | Generic.SetNetworkReconnectOptions
+[10.10.2022 15:11:45.756] <   564> cli      |   (EUInt64) AttemptIntervalMs = 15000
+[10.10.2022 15:11:45.756] <   564> cli      |   (EBoolean) Enabled = true
+[10.10.2022 15:11:45.756] <   564> cli      |   (EUInt64) OverallTimeoutMs = 1800000
+[10.10.2022 15:11:45.756] <   564> cli      | - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[10.10.2022 15:11:45.756] <   564> cli      | New client-server reconnection options were set and will be applied to future connections.
+[10.10.2022 15:11:45.756] <   564> cli      | Reconnects: enabled.
+[10.10.2022 15:11:45.756] <   564> cli      | Overall reconnect timeout [ms]: 1800000.
+[10.10.2022 15:11:45.756] <   564> cli      | Single attempt interval [ms]: 15000.
+[10.10.2022 15:11:45.756] <   564> cli      | Method [Generic.SetNetworkReconnectOptions] completed. Elapsed time: [00:00:00.000]
+[10.10.2022 15:11:45.756] <   564> cli      | -------------------------------------------------------------------------------
+[10.10.2022 15:11:45.756] <   564> cli      | -------------------------------------------------------------------------------
+[10.10.2022 15:11:45.756] <   564> cli      | Generic.EnableAgentReconnectPolicy
+[10.10.2022 15:11:45.756] <   564> cli      |   (EBoolean) IsRemoteAgent = false
+[10.10.2022 15:11:45.756] <   564> cli      | - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[10.10.2022 15:11:45.756] <   564> cli      | Enabling agent reconnection policy. Mode: [local].
+[10.10.2022 15:11:45.756] <   564> cli      | This client session is a control session. Client-server reconnection will be disabled permanently if this session fails.
+[10.10.2022 15:11:45.756] <   564> cli      | Method [Generic.EnableAgentReconnectPolicy] completed. Elapsed time: [00:00:00.000]
+[10.10.2022 15:11:45.756] <   564> cli      | -------------------------------------------------------------------------------
+[10.10.2022 15:11:45.772] < 10496> cli      | Next client command: [connectLocal].
+[10.10.2022 15:11:45.772] < 10496> cli      |       :>  192.168.5.61:2500
+[10.10.2022 15:11:45.772] < 10496> cli      |       :>  srv-qa-veeam01.lab.local:2500
+[10.10.2022 15:11:45.772] < 10496> cli      |       :>  .
+[10.10.2022 15:11:45.772] < 10496> cli      |       :>  0
+[10.10.2022 15:11:45.772] < 10496> cli      |       :>  {59d28206-2455-405b-b9ce-8773dda2509a}
+[10.10.2022 15:11:45.772] < 10496> cli      |       :>  {0e9489aa-03ce-4a49-9a74-8fa4987c10ca}
+[10.10.2022 15:11:45.772] < 10496> cli      |       :>  2
+[10.10.2022 15:11:45.772] < 10496> cli      |       :>  00000000-0000-0000-0000-000000000000
+[10.10.2022 15:11:45.772] < 10496> cli      | Connecting to the server agent with the following parameters: [192.168.5.61:2500; srv-qa-veeam01.lab.local:2500].
+[10.10.2022 15:11:45.772] < 10496> cli      |   [Hook] Creating redirection hooks rules instance.
+[10.10.2022 15:11:45.772] < 10496> cli      |   All client-server connections will be established using following reconnect options:
+[10.10.2022 15:11:45.772] < 10496> cli      |     Reconnects: enabled.
+[10.10.2022 15:11:45.772] < 10496> cli      |     Overall reconnect timeout [ms]: 1800000.
+[10.10.2022 15:11:45.772] < 10496> cli      |     Single attempt interval [ms]: 15000.
+[10.10.2022 15:11:45.772] < 10496> cli      |   Trying to connect to the endpoint [192.168.5.61:2500]
+[10.10.2022 15:11:45.772] < 10496> cli      |   Connection status: system:0 ( The operation completed successfully ).
+[10.10.2022 15:11:45.772] < 10496> cli      |   Attempting to establish shared memory connection.
+[10.10.2022 15:11:45.772] < 10496> cli      |     Opening shared memory device with name: [SharedMemDev_{9a86dbab-b7bd-49d3-ac12-147c098a533b}].
+[10.10.2022 15:11:45.772] < 10496> cli      |       Opening process handle for PID: [5204].
+[10.10.2022 15:11:45.772] < 10496> cli      |       Opening ring buffer: [SharedMemDev_{9a86dbab-b7bd-49d3-ac12-147c098a533b}_ForwardBuf_SharedMem].
+[10.10.2022 15:11:45.772] < 10496> cli      |       Opening ring buffer: [SharedMemDev_{9a86dbab-b7bd-49d3-ac12-147c098a533b}_BackwardBuf_SharedMem].
+[10.10.2022 15:11:45.772] < 10496> cli      |     Opening shared memory device with name: [SharedMemDev_{9a86dbab-b7bd-49d3-ac12-147c098a533b}]. ok.
+[10.10.2022 15:11:45.772] < 10496> cli      |   Shared memory connection has been successfully established. Buffer size: [524288]
+[10.10.2022 15:11:45.772] < 10496> cli      |   Login ticket: {59d28206-2455-405b-b9ce-8773dda2509a}
+[10.10.2022 15:11:45.772] < 10496> cli      |   Server features: [1], client features: [1], shared features: [1]
+[10.10.2022 15:11:45.772] < 10496> cli      |   Negotiating transport pool id.
+[10.10.2022 15:11:45.772] < 10496> cli      |   Additional transport connections will be assigned to pool '1'.
+[10.10.2022 15:11:45.772] < 10496> net      |   Initiating AUX data channel. Client id: '{1e843940-75d2-43da-83d0-360b142b714d}'.
+[10.10.2022 15:11:45.772] < 10496> cli      |   Trying to connect to the endpoint [192.168.5.61:2500]
+[10.10.2022 15:11:45.772] < 10496> cli      |   Connection status: system:0 ( The operation completed successfully ).
+[10.10.2022 15:11:45.772] < 10496> net      |   Sending reconnect options: [enabled: timeout 1800000, interval 15000].
+[10.10.2022 15:11:45.772] <  5412> cli      | Thread started. Thread id: 5412, parent id: 10496, role: (async) reconn. receiver {5f20f5aa-3dde-40bf-a6af-6ff0b72e88a2}
+[10.10.2022 15:11:45.772] <  5412> alg      | Receiver stage: running recv cycle.
+[10.10.2022 15:11:45.772] < 10496> cli      |   Trying to connect to the endpoint [192.168.5.61:2500]
+[10.10.2022 15:11:45.772] <  4252> cli      | Thread started. Thread id: 4252, parent id: 10496, role: (async) reconn. sender {5f20f5aa-3dde-40bf-a6af-6ff0b72e88a2}
+[10.10.2022 15:11:45.772] <  4252> alg      | Sender stage: running send cycle. Resend list: [0].
+[10.10.2022 15:11:45.772] < 10496> cli      |   Connection status: system:0 ( The operation completed successfully ).
+[10.10.2022 15:11:45.772] <  8544> cli      | Thread started. Thread id: 8544, parent id: 10496, role: (async) AUX channel receiver
+[10.10.2022 15:11:45.772] < 10496> net      |   Sending reconnect options: [enabled: timeout 1800000, interval 15000].
+[10.10.2022 15:11:45.772] < 10496> cli      |   All connections were established, sending acknowledge.
+[10.10.2022 15:11:45.772] < 11788> cli      | Thread started. Thread id: 11788, parent id: 10496, role: (async) reconn. receiver {a40b707e-85c0-4fb4-87e7-183fb7f26ea7}
+[10.10.2022 15:11:45.772] < 11788> alg      | Receiver stage: running recv cycle.
+[10.10.2022 15:11:45.772] < 10496> cli      | Connection established ( server IP: '192.168.5.61:2500').
+[10.10.2022 15:11:45.772] < 10496> cli      | 
+[10.10.2022 15:11:45.772] < 10496> cli      | _______________________________________________________________________________
+[10.10.2022 15:11:45.772] < 10496> cli      | Waiting for the next command.
+[10.10.2022 15:11:45.772] <  5420> cli      | Thread started. Thread id: 5420, parent id: 10496, role: (async) AUX channel sender
+[10.10.2022 15:11:45.772] <  8544> cli      | Remote time: 10.10.2022 15:11:45
+[10.10.2022 15:11:45.772] <  8936> cli      | Thread started. Thread id: 8936, parent id: 10496, role: (async) reconn. sender {a40b707e-85c0-4fb4-87e7-183fb7f26ea7}
+[10.10.2022 15:11:45.772] <  8936> alg      | Sender stage: running send cycle. Resend list: [0].
+[10.10.2022 15:11:45.834] < 10496> cli      | -------------------------------------------------------------------------------
+[10.10.2022 15:11:45.834] < 10496> cli      | DataTransfer.BackupText
+[10.10.2022 15:11:45.834] < 10496> cli      |   (EString) BackupType = {synth}
+[10.10.2022 15:11:45.834] < 10496> cli      |   (EBoolean) FullCopy = false
+[10.10.2022 15:11:45.834] < 10496> cli      |   (EBoolean) Option.Remote = true
+[10.10.2022 15:11:45.834] < 10496> cli      |   (EBlob) Text = {EBlob: 6013 bytes}
+[10.10.2022 15:11:45.834] < 10496> cli      |   (EString) VbkLink = veeamfs:0:6745a759-2205-4cd2-b172-8ec8f7e60ef8 (f0b12f0a-1178-834d-8432-08b4a90fe6df_dda8303a-acde-4631-b91b-05f7da4153aa)/summary.xml@C:\Backup\job teste\192.168.5.40\job teste - 192.168.5.40D2022-10-10T151131_673B.vib
+[10.10.2022 15:11:45.834] < 10496> cli      | - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[10.10.2022 15:11:45.834] < 10496> cli      | Redirecting command [DataTransfer.BackupText] to server.
+[10.10.2022 15:11:45.866] < 10496> cli      | Method [DataTransfer.BackupText] completed. Elapsed time: [00:00:00.026]
+[10.10.2022 15:11:45.866] < 10496> cli      | -------------------------------------------------------------------------------
+[10.10.2022 15:13:50.056] < 10496> cli      | -------------------------------------------------------------------------------
+[10.10.2022 15:13:50.056] < 10496> cli      | DataTransfer.BackupText
+[10.10.2022 15:13:50.056] < 10496> cli      |   (EString) BackupType = {synth}
+[10.10.2022 15:13:50.056] < 10496> cli      |   (EBoolean) FullCopy = false
+[10.10.2022 15:13:50.056] < 10496> cli      |   (EBoolean) Option.Remote = true
+[10.10.2022 15:13:50.056] < 10496> cli      |   (EBlob) Text = {EBlob: 18230 bytes}
+[10.10.2022 15:13:50.056] < 10496> cli      |   (EString) VbkLink = veeamfs:0:6745a759-2205-4cd2-b172-8ec8f7e60ef8 (f0b12f0a-1178-834d-8432-08b4a90fe6df_dda8303a-acde-4631-b91b-05f7da4153aa)/summary.xml@C:\Backup\job teste\192.168.5.40\job teste - 192.168.5.40D2022-10-10T151131_673B.vib
+[10.10.2022 15:13:50.056] < 10496> cli      | - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[10.10.2022 15:13:50.056] < 10496> cli      | Redirecting command [DataTransfer.BackupText] to server.
+[10.10.2022 15:13:50.087] < 10496> cli      | Method [DataTransfer.BackupText] completed. Elapsed time: [00:00:00.027]
+[10.10.2022 15:13:50.087] < 10496> cli      | -------------------------------------------------------------------------------
+[10.10.2022 15:13:50.103] < 10496> cli      | -------------------------------------------------------------------------------
+[10.10.2022 15:13:50.103] < 10496> cli      | DataTransfer.BackupText
+[10.10.2022 15:13:50.103] < 10496> cli      |   (EString) BackupType = {synth}
+[10.10.2022 15:13:50.103] < 10496> cli      |   (EBoolean) FullCopy = false
+[10.10.2022 15:13:50.103] < 10496> cli      |   (EBoolean) Option.Remote = true
+[10.10.2022 15:13:50.103] < 10496> cli      |   (EBlob) Text = {EBlob: 18230 bytes}
+[10.10.2022 15:13:50.103] < 10496> cli      |   (EString) VbkLink = veeamfs:0:6745a759-2205-4cd2-b172-8ec8f7e60ef8 (f0b12f0a-1178-834d-8432-08b4a90fe6df_dda8303a-acde-4631-b91b-05f7da4153aa)/summary.xml@C:\Backup\job teste\192.168.5.40\job teste - 192.168.5.40D2022-10-10T151131_673B.vib
+[10.10.2022 15:13:50.103] < 10496> cli      | - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[10.10.2022 15:13:50.103] < 10496> cli      | Redirecting command [DataTransfer.BackupText] to server.
+[10.10.2022 15:13:50.118] < 10496> cli      | Method [DataTransfer.BackupText] completed. Elapsed time: [00:00:00.016]
+[10.10.2022 15:13:50.118] < 10496> cli      | -------------------------------------------------------------------------------
+[10.10.2022 15:13:50.118] < 10496> cli      | Next client command: [disconnect].
+[10.10.2022 15:13:50.118] < 10496> net      | AUX channel shutdown triggered.
+[10.10.2022 15:13:50.118] <  5420> net      | AUX data sender: sending shutdown marker.
+[10.10.2022 15:13:50.118] <  8936> alg      | Reconnectable stop request was sent on {a40b707e-85c0-4fb4-87e7-183fb7f26ea7}.
+[10.10.2022 15:13:50.118] < 11788> alg      | Reconnectable protocol stop request confirmation was received on {a40b707e-85c0-4fb4-87e7-183fb7f26ea7}.
+[10.10.2022 15:13:50.118] < 11788> alg      | Reconnectable protocol stop request was received on {a40b707e-85c0-4fb4-87e7-183fb7f26ea7}.
+[10.10.2022 15:13:50.118] < 11788> alg      | Receiver: finishing on {a40b707e-85c0-4fb4-87e7-183fb7f26ea7}.
+[10.10.2022 15:13:50.118] < 11788> cli      | Thread finished. Role: '(async) reconn. receiver {a40b707e-85c0-4fb4-87e7-183fb7f26ea7}'.
+[10.10.2022 15:13:50.118] <  8936> alg      | Reconnectable stop confirmation was sent on {a40b707e-85c0-4fb4-87e7-183fb7f26ea7}.
+[10.10.2022 15:13:50.118] <  8936> alg      | Sender stage is finishing.
+[10.10.2022 15:13:50.118] <  8936> cli      | Thread finished. Role: '(async) reconn. sender {a40b707e-85c0-4fb4-87e7-183fb7f26ea7}'.
+[10.10.2022 15:13:50.118] <  5412> alg      | Reconnectable protocol stop request was received on {5f20f5aa-3dde-40bf-a6af-6ff0b72e88a2}.
+[10.10.2022 15:13:50.118] <  4252> alg      | Reconnectable stop confirmation was sent on {5f20f5aa-3dde-40bf-a6af-6ff0b72e88a2}.
+[10.10.2022 15:13:50.118] <  4252> alg      | Reconnectable stop request was sent on {5f20f5aa-3dde-40bf-a6af-6ff0b72e88a2}.
+[10.10.2022 15:13:50.118] <  8544> net      | AUX data receiver: shutdown marker received. Waiting for shutdown.
+[10.10.2022 15:13:50.118] <  5420> alg      | Traffic history max size: [4].
+[10.10.2022 15:13:50.118] <  5420> cli      | Thread finished. Role: '(async) AUX channel sender'.
+[10.10.2022 15:13:50.118] <  5412> alg      | Reconnectable protocol stop request confirmation was received on {5f20f5aa-3dde-40bf-a6af-6ff0b72e88a2}.
+[10.10.2022 15:13:50.118] <  5412> alg      | Receiver: finishing on {5f20f5aa-3dde-40bf-a6af-6ff0b72e88a2}.
+[10.10.2022 15:13:50.118] <  5412> cli      | Thread finished. Role: '(async) reconn. receiver {5f20f5aa-3dde-40bf-a6af-6ff0b72e88a2}'.
+[10.10.2022 15:13:50.118] <  4252> alg      | Sender stage is finishing.
+[10.10.2022 15:13:50.118] <  4252> cli      | Thread finished. Role: '(async) reconn. sender {5f20f5aa-3dde-40bf-a6af-6ff0b72e88a2}'.
+[10.10.2022 15:13:50.118] <  8544> alg      | Traffic history max size: [4].
+[10.10.2022 15:13:50.118] <  8544> cli      | Thread finished. Role: '(async) AUX channel receiver'.
+[10.10.2022 15:13:50.118] < 10496> cli      | 
+[10.10.2022 15:13:50.118] < 10496> cli      | _______________________________________________________________________________
+[10.10.2022 15:13:50.118] < 10496> cli      | Waiting for the next command.
+[10.10.2022 15:13:50.134] <  5848> cli      | Finalization thread: Received external stop event.
+[10.10.2022 15:13:50.134] <  5848> cli      | Thread finished. Role: 'Event listener thread'.
+[10.10.2022 15:13:50.134] < 12072> net      | Terminating by stop event in CTcpThread::WaitOrStop.
+[10.10.2022 15:13:50.134] < 12072> net      | Stopping client sessions.
+[10.10.2022 15:13:50.134] < 11628> net      | Terminating by stop event in CTcpThread::WaitOrStop.
+[10.10.2022 15:13:50.134] < 11628> cli      | WARN|Input TCP stream was closed
+[10.10.2022 15:13:50.134] < 11628> net      | Connection closed...
+[10.10.2022 15:13:50.134] < 11628> cli      | Thread finished. Role: 'Client processor thread (127.0.0.1:60308)'.
+[10.10.2022 15:13:50.134] < 10496> net      | Terminating by stop event in CTcpThread::WaitOrStop.
+[10.10.2022 15:13:50.134] < 10496> cli      | WARN|Input TCP stream was closed
+[10.10.2022 15:13:50.134] < 10496> cli      | Removing stdin/stdout redirector: '2539584077248'.
+[10.10.2022 15:13:50.134] < 10496> net      | Connection closed...
+[10.10.2022 15:13:50.134] < 10496> cli      | Thread finished. Role: 'Client processor thread (192.168.5.61:60309)'.
+[10.10.2022 15:13:50.134] <   564> net      | Terminating by stop event in CTcpThread::WaitOrStop.
+[10.10.2022 15:13:50.134] <   564> cli      | WARN|Control session with manager was stopped. Raising reconnect stop event.
+[10.10.2022 15:13:50.134] <   564> cli      | WARN|Input TCP stream was closed
+[10.10.2022 15:13:50.134] <   564> net      | Connection closed...
+[10.10.2022 15:13:50.134] <   564> cli      | Thread finished. Role: 'Client processor thread (192.168.5.61:60310)'.
+[10.10.2022 15:13:50.134] < 12072> net      | Veeam RPC server stopped.
+[10.10.2022 15:13:50.134] < 12072> cli      | Thread finished. Role: 'VRPC server thread'.
+[10.10.2022 15:13:50.134] < 11724> cli      |   Cleaning all resumable operations.
+[10.10.2022 15:13:50.134] < 11724> srv      |   Stopping srv. cleanup thread.
+[10.10.2022 15:13:50.134] <  7732> srv      |   Finalizing srv. sessions.
+[10.10.2022 15:13:50.134] <  7732> srv      | Srv. cleanup thread is finished.
+[10.10.2022 15:13:50.134] <  7732> cli      | Thread finished. Role: 'Session container'.
+[10.10.2022 15:13:50.134] < 11724> srv      |   Srv. cleanup thread was stopped.
+[10.10.2022 15:13:50.134] < 11724> dsk      |   Removing attached vmdk disks.
+[10.10.2022 15:13:50.134] < 11724> dsk      |   Disconnecting all VMs
+[10.10.2022 15:13:50.134] < 11724> dsk      |     Disconnecting all VMs...
+[10.10.2022 15:13:50.134] < 11724> dsk      |       Removing all vm connections
+[10.10.2022 15:13:50.134] < 11724> dsk      |     All VMs were successfully disconnected.
+[10.10.2022 15:13:50.134] < 11724> cli      | Client has been stopped.
+[10.10.2022 15:13:50.134] < 11724> cli      | Destroying connection pools.
+[10.10.2022 15:13:50.134] < 11724> cli      | Destroying connection pools. ok.
+[10.10.2022 15:13:50.134] < 11724> cli      | Resetting Veeam agent context
+[10.10.2022 15:13:50.134] < 11724> cli      |   Reset NAS backup context
+[10.10.2022 15:13:50.134] < 11724> cli      |     Disposing message channel context
+[10.10.2022 15:13:50.134] < 11724> cli      |   Reset NAS backup context ok.
+[10.10.2022 15:13:50.134] < 11724> cli      |   Reset storages context
+[10.10.2022 15:13:50.134] < 11724> stg      |     Storages cache is empty : skipping cleanup.
+[10.10.2022 15:13:50.134] < 11724> cli      |   Reset storages context ok.
+[10.10.2022 15:13:50.134] < 11724> cli      |   Reset singleton manager holder
+[10.10.2022 15:13:50.134] <  4228> vim      | Cleanup thread for the VI connections pool has finished.
+[10.10.2022 15:13:50.134] <  4228> cli      | Thread finished. Role: 'Clean up procedure'.
+[10.10.2022 15:13:50.134] < 11724> cli      |   Reset singleton manager holder ok.
+[10.10.2022 15:13:50.134] < 11724> cli      | Resetting Veeam agent context ok.
+[10.10.2022 15:13:50.134] < 11724> cli      | Resetting Veeam agent context
+[10.10.2022 15:13:50.134] < 11724> cli      |   Reset NAS backup context
+[10.10.2022 15:13:50.134] < 11724> cli      |   Reset NAS backup context ok.
+[10.10.2022 15:13:50.134] < 11724> cli      |   Reset storages context
+[10.10.2022 15:13:50.134] < 11724> cli      |   Reset storages context ok.
+[10.10.2022 15:13:50.134] < 11724> cli      |   Reset singleton manager holder
+[10.10.2022 15:13:50.134] < 11724> cli      |   Reset singleton manager holder ok.
+[10.10.2022 15:13:50.134] < 11724> cli      | Resetting Veeam agent context ok.
+[10.10.2022 15:13:50.134] < 11724> cli      | The agent session has finished successfully.
