@@ -26,8 +26,8 @@ func main() {
 	}
 	mymap[list[0]] = a
 	for _, mymap := range mymap {
-		for _, j := range mymap {
-			readlogs.GetJobBackup("./Svc.VeeamBackup.log", j)
+		for _, job := range mymap {
+			log.Println(job)
 		}
 	}
 
